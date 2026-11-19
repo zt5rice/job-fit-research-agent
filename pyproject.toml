@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-fit-research-agent"
+version = "0.1.0"
+description = "Evidence-backed job-fit research with DeepAgents and deterministic scoring"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Independent prototype"}]
+dependencies = [
+  "deepagents>=0.7.40,<0.8",
+  "langchain-openai>=1.8,<2",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+job-fit = "job_fit.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
