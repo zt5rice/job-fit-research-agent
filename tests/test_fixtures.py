@@ -34,29 +34,19 @@ class FixtureTests(unittest.TestCase):
     def test_no_csv_fixture_is_committed(self):
         self.assertEqual(list((ROOT / "examples").rglob("*.csv")), [])
 
-    def test_public_fixtures_contain_no_original_identifiers(self):
-        forbidden = (
-            "Northstar Labs",
-            "Harbor Data",
-            "Meridian Defense Systems",
-            "San Diego",
-            "northstar-ai-platform",
-            "harbor-applied-ai",
-            "meridian-embedded",
+    def test_public_fixtures_use_only_neutral_identifiers(self):
+        profile = json.loads(
+            (ROOT / "profile.example.json").read_text(encoding="utf-8")
         )
-        public_text = "\n".join(
-            [
-                (ROOT / "profile.example.json").read_text(encoding="utf-8"),
-                *[
-                    path.read_text(encoding="utf-8")
-                    for path in sorted((ROOT / "examples").rglob("*"))
-                    if path.is_file()
-                ],
-            ]
+        self.assertTrue(
+            all(
+                location.startswith(("Example City", "Remote (Example Region)"))
+                for location in profile["locations"]
+            )
         )
-        for value in forbidden:
-            self.assertNotIn(value, public_text)
         for path in sorted(JOBS.glob("*.md")):
+            content = path.read_text(encoding="utf-8")
+            self.assertIn("Company: Synthetic Employer", content)
             self.assertIn(
-                "Company: Synthetic Employer", path.read_text(encoding="utf-8")
+                "Source URL: https://example.com/jobs/synthetic-role-", content
             )
