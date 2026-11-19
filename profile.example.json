@@ -28,8 +28,8 @@
   ],
   "seniority_target": "senior",
   "locations": [
-    "San Diego, CA",
-    "Remote US"
+    "Example City, CA",
+    "Remote (Example Region)"
   ],
   "work_authorization": {
     "current": "synthetic work authorization",
