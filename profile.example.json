@@ -1,0 +1,63 @@
+{
+  "candidate_id": "synthetic-candidate",
+  "headline": "Synthetic applied AI engineer with scientific computing experience",
+  "target_roles": [
+    "AI engineer",
+    "machine learning platform engineer",
+    "software engineer"
+  ],
+  "strong_skills": [
+    "Python",
+    "LangChain",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "RAG",
+    "evaluation"
+  ],
+  "supporting_skills": [
+    "Kubernetes",
+    "TypeScript",
+    "PyTorch",
+    "scientific computing"
+  ],
+  "domain_background": [
+    "artificial intelligence",
+    "developer tooling",
+    "scientific software"
+  ],
+  "seniority_target": "senior",
+  "locations": [
+    "San Diego, CA",
+    "Remote US"
+  ],
+  "work_authorization": {
+    "current": "synthetic work authorization",
+    "requires_employer_sponsorship_now": true,
+    "future_plan": "synthetic employer-sponsored path",
+    "security_clearance": "none",
+    "notes": "Fictional profile data for public demos."
+  },
+  "disallowed_claims": [
+    "production ownership not present in the profile",
+    "security clearance",
+    "people management"
+  ],
+  "preferences": {
+    "years_experience": 7,
+    "workplace_types": [
+      "remote",
+      "hybrid"
+    ],
+    "minimum_salary_usd": 130000,
+    "preferred_domains": [
+      "artificial intelligence",
+      "developer tooling",
+      "scientific software"
+    ],
+    "avoid_role_families": [
+      "embedded firmware"
+    ]
+  }
+}
+
