@@ -26,7 +26,7 @@ calculates the only score that reaches the report.
 ## Architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     U[User profile JSON] --> P[DeepAgents planner]
     J[Untrusted job descriptions] --> P
     P --> A[job_analyst subagent]
