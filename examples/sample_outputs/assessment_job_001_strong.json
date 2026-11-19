@@ -1,0 +1,369 @@
+{
+  "job": {
+    "job_id": "job_001_strong",
+    "source_url": "https://example.com/jobs/northstar-ai-platform",
+    "retrieved_at": "2026-11-19",
+    "company": "Northstar Labs",
+    "title": "Senior AI Platform Engineer",
+    "location": "Remote (US)",
+    "seniority": "senior",
+    "responsibilities": [
+      "Design typed agent workflows and evaluation harnesses for internal engineering teams.",
+      "Build Python services and retrieval pipelines backed by PostgreSQL.",
+      "Partner with product engineers to turn prototype workflows into auditable tools.",
+      "Own reliability, observability, and evidence quality for agent runs."
+    ],
+    "must_have": [
+      "5+ years of software engineering experience, including production Python.",
+      "Strong experience with LangChain or a comparable LLM application framework.",
+      "Experience building deterministic evaluation and regression checks for AI systems.",
+      "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+      "Clear written communication and comfort working in a senior individual-contributor role."
+    ],
+    "nice_to_have": [
+      "Experience operating Kubernetes workloads.",
+      "Familiarity with RAG systems and model observability.",
+      "Applied PyTorch experience."
+    ],
+    "domain": [
+      "artificial intelligence",
+      "developer tooling"
+    ],
+    "work_authorization_language": "This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Senior AI Platform Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_002",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Company: Northstar Labs",
+        "locator": {
+          "line_start": 3,
+          "line_end": 3
+        },
+        "field": "company"
+      },
+      {
+        "evidence_id": "ev_003",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Location: Remote (US)",
+        "locator": {
+          "line_start": 4,
+          "line_end": 4
+        },
+        "field": "location"
+      },
+      {
+        "evidence_id": "ev_004",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Seniority: senior",
+        "locator": {
+          "line_start": 5,
+          "line_end": 5
+        },
+        "field": "seniority"
+      },
+      {
+        "evidence_id": "ev_005",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Workplace: remote",
+        "locator": {
+          "line_start": 6,
+          "line_end": 6
+        },
+        "field": "workplace_type"
+      },
+      {
+        "evidence_id": "ev_006",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Domain: artificial intelligence, developer tooling",
+        "locator": {
+          "line_start": 7,
+          "line_end": 7
+        },
+        "field": "domain"
+      },
+      {
+        "evidence_id": "ev_007",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Source URL: https://example.com/jobs/northstar-ai-platform",
+        "locator": {
+          "line_start": 8,
+          "line_end": 8
+        },
+        "field": "source_url"
+      },
+      {
+        "evidence_id": "ev_008",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Retrieved: 2026-11-19",
+        "locator": {
+          "line_start": 9,
+          "line_end": 9
+        },
+        "field": "retrieved_at"
+      },
+      {
+        "evidence_id": "ev_009",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Salary: USD 150000-190000 per year",
+        "locator": {
+          "line_start": 10,
+          "line_end": 10
+        },
+        "field": "salary_text"
+      },
+      {
+        "evidence_id": "ev_010",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+        "locator": {
+          "line_start": 11,
+          "line_end": 11
+        },
+        "field": "work_authorization_language"
+      },
+      {
+        "evidence_id": "ev_011",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Design typed agent workflows and evaluation harnesses for internal engineering teams.",
+        "locator": {
+          "line_start": 15,
+          "line_end": 15
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_012",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Build Python services and retrieval pipelines backed by PostgreSQL.",
+        "locator": {
+          "line_start": 16,
+          "line_end": 16
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_013",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Partner with product engineers to turn prototype workflows into auditable tools.",
+        "locator": {
+          "line_start": 17,
+          "line_end": 17
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_014",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Own reliability, observability, and evidence quality for agent runs.",
+        "locator": {
+          "line_start": 18,
+          "line_end": 18
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "5+ years of software engineering experience, including production Python.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Strong experience with LangChain or a comparable LLM application framework.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Experience building deterministic evaluation and regression checks for AI systems.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_018",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+        "locator": {
+          "line_start": 25,
+          "line_end": 25
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_019",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Clear written communication and comfort working in a senior individual-contributor role.",
+        "locator": {
+          "line_start": 26,
+          "line_end": 26
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_020",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Experience operating Kubernetes workloads.",
+        "locator": {
+          "line_start": 30,
+          "line_end": 30
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_021",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Familiarity with RAG systems and model observability.",
+        "locator": {
+          "line_start": 31,
+          "line_end": 31
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_022",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Applied PyTorch experience.",
+        "locator": {
+          "line_start": 32,
+          "line_end": 32
+        },
+        "field": "nice_to_have"
+      }
+    ],
+    "workplace_type": "remote",
+    "salary_text": "USD 150000-190000 per year",
+    "source_path": "examples/fixtures/jobs/job_001_strong.md",
+    "extraction_warnings": []
+  },
+  "assessment": {
+    "job_id": "job_001_strong",
+    "recommendation": "apply",
+    "score": 100,
+    "score_breakdown": {
+      "role_and_domain": 30,
+      "must_have_skills": 30,
+      "seniority": 15,
+      "location_and_authorization": 15,
+      "preference_alignment": 10,
+      "total": 100
+    },
+    "strengths": [
+      "Python",
+      "experience tenure",
+      "LangChain",
+      "LLM application experience",
+      "evaluation",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "gaps": [],
+    "unsupported_claims": [],
+    "resume_emphasis": [
+      "Emphasize verified experience with Python, experience tenure, LangChain, LLM application experience, evaluation.",
+      "Connect that experience to artificial intelligence, developer tooling.",
+      "Cite concrete evidence from the profile, not the job description."
+    ],
+    "interview_prep": [
+      "Prepare concise examples of relevant technical decisions and outcomes.",
+      "Prepare one evidence-backed explanation for each must-have requirement."
+    ],
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Senior AI Platform Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_010",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+        "locator": {
+          "line_start": 11,
+          "line_end": 11
+        },
+        "field": "work_authorization_language"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "5+ years of software engineering experience, including production Python.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Strong experience with LangChain or a comparable LLM application framework.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Experience building deterministic evaluation and regression checks for AI systems.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_018",
+        "source": "examples/fixtures/jobs/job_001_strong.md",
+        "quote": "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+        "locator": {
+          "line_start": 25,
+          "line_end": 25
+        },
+        "field": "must_have"
+      }
+    ],
+    "needs_human_review": false,
+    "review_reasons": [],
+    "hard_blockers": [],
+    "score_explanation": "role/domain 30/30, must-have 30/30 (5/5 matched), seniority 15/15, location/auth 15/15, preferences 10/10. Uncapped total 100; final 100.",
+    "evidence_coverage": 1.0
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_reasons": [],
+    "evidence_coverage": 1.0
+  },
+  "analysis_source": "deterministic"
+}

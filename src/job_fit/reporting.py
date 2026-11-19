@@ -85,6 +85,12 @@ def write_reports(
     _write_json(ranked_json_path, ranked_payload)
     output_files.append(str(ranked_json_path))
 
+    ranked_markdown_path = output / "ranked_jobs.md"
+    ranked_markdown_path.write_text(
+        render_markdown(profile, ranked_records, mode=mode), encoding="utf-8"
+    )
+    output_files.append(str(ranked_markdown_path))
+
     manifest = RunManifest(
         run_id=_run_id(),
         started_at=started_at,
@@ -123,6 +129,123 @@ def write_reports(
     return ranked_payload, manifest
 
 
+def render_markdown(
+    profile: UserProfile,
+    records: list[dict[str, Any]],
+    *,
+    mode: str,
+) -> str:
+    lines = [
+        "# Job Fit Research Report",
+        "",
+        f"- Candidate: `{profile.candidate_id}`",
+        f"- Mode: `{mode}`",
+        f"- Rubric: `{RUBRIC_VERSION}`",
+        "- This is a research aid, not an application or hiring decision.",
+        "",
+        "## Ranking",
+        "",
+        "| Rank | Job | Company | Recommendation | Score | Review | Evidence |",
+        "|---:|---|---|---|---:|---|---:|",
+    ]
+    for rank, record in enumerate(records, start=1):
+        assessment = record["assessment"]
+        review = "yes" if assessment["needs_human_review"] else "no"
+        lines.append(
+            "| {rank} | {title} | {company} | **{recommendation}** | "
+            "{score} | {review} | {coverage:.0%} |".format(
+                rank=rank,
+                title=_md(record["job"]["title"]),
+                company=_md(record["job"]["company"]),
+                recommendation=assessment["recommendation"],
+                score=assessment["score"],
+                review=review,
+                coverage=assessment["evidence_coverage"],
+            )
+        )
+
+    for record in records:
+        job = record["job"]
+        assessment = record["assessment"]
+        lines.extend(
+            [
+                "",
+                f"## {job['title']} — {job['company']}",
+                "",
+                f"**Recommendation:** `{assessment['recommendation']}`  ",
+                f"**Deterministic score:** `{assessment['score']}/100`  ",
+                f"**Human review:** "
+                f"`{'required' if assessment['needs_human_review'] else 'not required'}`",
+                "",
+                assessment["score_explanation"],
+                "",
+                "### Score breakdown",
+                "",
+                "| Dimension | Points |",
+                "|---|---:|",
+                f"| Role and domain | {assessment['score_breakdown']['role_and_domain']}/30 |",
+                f"| Must-have skills | {assessment['score_breakdown']['must_have_skills']}/30 |",
+                f"| Seniority | {assessment['score_breakdown']['seniority']}/15 |",
+                f"| Location and authorization | "
+                f"{assessment['score_breakdown']['location_and_authorization']}/15 |",
+                f"| Preferences | {assessment['score_breakdown']['preference_alignment']}/10 |",
+                "",
+            ]
+        )
+        if assessment["review_reasons"]:
+            lines.extend(
+                [
+                    "### Human-review reasons",
+                    "",
+                    *[f"- `{reason}`" for reason in assessment["review_reasons"]],
+                    "",
+                ]
+            )
+        if assessment["hard_blockers"]:
+            lines.extend(
+                [
+                    "### Hard blockers",
+                    "",
+                    *[
+                        f"- **{blocker['code']}:** {_md(blocker['message'])}"
+                        for blocker in assessment["hard_blockers"]
+                    ],
+                    "",
+                ]
+            )
+        lines.extend(
+            [
+                "### Strengths",
+                "",
+                *_bullets(assessment["strengths"], empty="No deterministic strengths."),
+                "",
+                "### Gaps",
+                "",
+                *_bullets(assessment["gaps"], empty="No unmatched must-haves."),
+                "",
+                "### Resume emphasis",
+                "",
+                *_bullets(assessment["resume_emphasis"]),
+                "",
+                "### Interview preparation",
+                "",
+                *_bullets(assessment["interview_prep"]),
+                "",
+                "### Evidence",
+                "",
+            ]
+        )
+        for item in assessment["evidence"]:
+            locator = item["locator"]
+            lines.append(
+                f"- `{item['evidence_id']}` ({_md(item['field'])}, "
+                f"lines {locator['line_start']}-{locator['line_end']}): "
+                f"> {_md(item['quote'])}"
+            )
+    lines.append("")
+    return "\n".join(lines)
+
+
 def fingerprint(path: str | Path) -> InputFingerprint:
     file_path = Path(path)
     data = file_path.read_bytes()
@@ -138,6 +261,15 @@ def _write_json(path: Path, payload: Any) -> None:
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+
+
+def _bullets(values: Iterable[str], *, empty: str = "None.") -> list[str]:
+    items = list(values)
+    return [f"- {_md(item)}" for item in items] if items else [empty]
+
+
+def _md(value: Any) -> str:
+    return str(value).replace("|", "\\|").replace("\n", " ")
 
 
 def _dedupe(values: Iterable[str]) -> list[str]:
