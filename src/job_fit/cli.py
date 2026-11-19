@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -42,6 +43,13 @@ def build_parser() -> argparse.ArgumentParser:
     demo.add_argument("--jobs", default=DEFAULT_JOBS)
     demo.add_argument("--output", default="reports/demo")
 
+    eval_parser = subparsers.add_parser(
+        "eval", help="Run the synthetic evaluation corpus."
+    )
+    eval_parser.add_argument(
+        "--output",
+        default="reports/eval_report.json",
+    )
     return parser
 
 
@@ -49,6 +57,17 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.command == "demo":
         return _run_demo(args)
+    if args.command == "eval":
+        from job_fit.evaluation import run_and_write_evaluation
+
+        report = run_and_write_evaluation(args.output)
+        print(json.dumps(report["metrics"], indent=2, ensure_ascii=False))
+        print(f"Eval report: {Path(args.output).resolve()}")
+        if not report["regression_passed"]:
+            for failure in report["regression_failures"]:
+                print(f"Regression failure: {failure}", file=sys.stderr)
+            return 1
+        return 0
     return 2
 
 
