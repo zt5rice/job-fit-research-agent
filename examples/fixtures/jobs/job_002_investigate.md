@@ -1,12 +1,12 @@
 # Applied AI Engineer
 
-Company: Harbor Data
-Location: San Diego, CA
+Company: Synthetic Employer B
+Location: Example City, CA
 Seniority: mid
 Workplace: hybrid
 Domain: data infrastructure, analytics
-Source URL: https://example.com/jobs/harbor-applied-ai
-Retrieved: 2026-11-19
+Source URL: https://example.com/jobs/synthetic-role-002
+Retrieved: 2025-01-01
 Salary: Depends on experience
 
 ## Responsibilities
@@ -21,7 +21,7 @@ Salary: Depends on experience
 - Strong Python and TypeScript development skills.
 - Experience with AWS, Kubernetes, and SQL databases.
 - Demonstrated experience shipping LLM-powered features.
-- Ability to work from the San Diego office three days per week.
+- Ability to work from the Example City office three days per week.
 
 ## Nice to have
 

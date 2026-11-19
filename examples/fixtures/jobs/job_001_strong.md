@@ -1,14 +1,14 @@
 # Senior AI Platform Engineer
 
-Company: Northstar Labs
-Location: Remote (US)
+Company: Synthetic Employer A
+Location: Remote (Example Region)
 Seniority: senior
 Workplace: remote
 Domain: artificial intelligence, developer tooling
-Source URL: https://example.com/jobs/northstar-ai-platform
-Retrieved: 2026-11-19
+Source URL: https://example.com/jobs/synthetic-role-001
+Retrieved: 2025-01-01
 Salary: USD 150000-190000 per year
-Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.
+Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.
 
 ## Responsibilities
 
