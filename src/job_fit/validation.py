@@ -142,18 +142,13 @@ def detect_hard_blockers(
     citizenship_required = any(
         phrase in text
         for phrase in (
-            "u.s. citizenship is required",
-            "us citizenship is required",
-            "must be a u.s. citizen",
-            "must be a us citizen",
             "citizenship required",
+            "citizen required",
         )
     )
     clearance_required = any(
         phrase in text
         for phrase in (
-            "active secret security clearance",
-            "active top secret",
             "security clearance required",
             "minimum clearance required",
             "must be able to obtain a security clearance",

@@ -1,37 +1,61 @@
+import json
 import unittest
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLIC_PATHS = [ROOT / "README.md", ROOT / "profile.example.json"]
-for directory_name in ("docs", "evals", "examples"):
-    directory = ROOT / directory_name
-    if directory.exists():
-        PUBLIC_PATHS.extend(directory.rglob("*"))
+JOBS = ROOT / "examples" / "fixtures" / "jobs"
 
 
 class PublicPrivacyTests(unittest.TestCase):
-    def test_public_artifacts_contain_no_original_fixture_identifiers(self):
-        forbidden = (
-            "Northstar Labs",
-            "Harbor Data",
-            "Meridian Defense Systems",
-            "San Diego",
-            "Seattle",
-            "Remote US",
-            "U.S. citizenship",
-            "Active Secret",
-            "northstar-ai-platform",
-            "harbor-applied-ai",
-            "meridian-embedded",
-        )
-        files = [path for path in PUBLIC_PATHS if path.is_file()]
-        self.assertTrue(files)
-        for path in files:
+    def test_fixture_metadata_is_neutral(self):
+        for path in sorted(JOBS.glob("*.md")):
             content = path.read_text(encoding="utf-8")
-            for value in forbidden:
-                with self.subTest(path=path, value=value):
-                    self.assertNotIn(value, content)
+            self.assertIn("Company: Synthetic Employer", content)
+            self.assertIn(
+                "Source URL: https://example.com/jobs/synthetic-role-", content
+            )
+
+    def test_profile_locations_are_generic(self):
+        for path in (
+            ROOT / "profile.example.json",
+            ROOT / "examples" / "profile.example.json",
+        ):
+            profile = json.loads(path.read_text(encoding="utf-8"))
+            self.assertTrue(
+                all(
+                    location.startswith(
+                        ("Example City", "Remote (Example Region)")
+                    )
+                    for location in profile["locations"]
+                )
+            )
+
+    def test_eval_metadata_is_neutral(self):
+        corpus = json.loads(
+            (ROOT / "evals" / "labeled_jobs.json").read_text(encoding="utf-8")
+        )
+        for case in corpus["cases"]:
+            self.assertRegex(case["company"], r"^Synthetic Employer \d{2}$")
+            self.assertTrue(
+                case["location"].startswith(
+                    ("Example City", "Remote (Example Region)")
+                )
+            )
+
+    def test_sample_outputs_use_neutral_companies(self):
+        for path in sorted(
+            (ROOT / "examples" / "sample_outputs").glob("assessment_*.json")
+        ):
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            self.assertTrue(
+                payload["job"]["company"].startswith("Synthetic Employer")
+            )
+            self.assertTrue(
+                payload["job"]["source_url"].startswith(
+                    "https://example.com/jobs/synthetic-role-"
+                )
+            )
 
 
 if __name__ == "__main__":

@@ -340,10 +340,14 @@ def _aliases_match(profile: UserProfile, requirement: str) -> bool:
         return True
     if "sql" in requirement and "postgresql" in skills:
         return True
-    if "san diego office" in requirement and any(
-        "san diego" in _normalized(location) for location in profile.locations
-    ):
-        return True
+    office_match = re.search(r"work from the (.+?) office", requirement)
+    if office_match:
+        office_location = office_match.group(1).strip()
+        if any(
+            office_location in _normalized(location)
+            for location in profile.locations
+        ):
+            return True
     years = re.search(r"(\d+)\+?\s+years", requirement)
     if years and "software" in requirement:
         candidate_years = profile.preferences.get("years_experience", 0)

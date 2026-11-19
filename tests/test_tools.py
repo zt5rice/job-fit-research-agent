@@ -35,7 +35,7 @@ class ToolTests(unittest.TestCase):
 
     def test_extract_tool_labels_untrusted_input(self):
         payload = extract_job_fields_tool(
-            "# Role\n\nCompany: Synthetic\nLocation: Remote US\n\n"
+            "# Role\n\nCompany: Synthetic\nLocation: Remote (Example Region)\n\n"
             "## Requirements\n- Python\n",
             source="inline.md",
         )

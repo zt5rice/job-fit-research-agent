@@ -42,7 +42,7 @@ class ValidationTests(unittest.TestCase):
         text = (
             "# Senior AI Engineer\n\n"
             "Company: Synthetic\n"
-            "Location: Remote US\n"
+            "Location: Remote (Example Region)\n"
             "Domain: artificial intelligence\n\n"
             "## Requirements\n"
             "- Python\n"
