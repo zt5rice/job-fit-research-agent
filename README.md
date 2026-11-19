@@ -156,7 +156,7 @@ copied into fixtures, commits, CI artifacts, or releases.
 
 ## Limitations
 
-- This is an interview-grade architecture demo, not production software.
+- This is a controlled architecture prototype, not production software.
 - Offline extraction is intentionally rule-based and works best with the
   documented Markdown fixture format.
 - Live model quality depends on the configured provider and is not guaranteed.
