@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-19T20:04:38+00:00",
+  "generated_at": "2026-11-19T20:23:01+00:00",
   "mode": "offline",
   "rubric_version": "rubric-v1",
   "candidate_id": "synthetic-candidate",
@@ -8,11 +8,11 @@
     {
       "job": {
         "job_id": "job_001_strong",
-        "source_url": "https://example.com/jobs/northstar-ai-platform",
-        "retrieved_at": "2026-11-19",
-        "company": "Northstar Labs",
+        "source_url": "https://example.com/jobs/synthetic-role-001",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer A",
         "title": "Senior AI Platform Engineer",
-        "location": "Remote (US)",
+        "location": "Remote (Example Region)",
         "seniority": "senior",
         "responsibilities": [
           "Design typed agent workflows and evaluation harnesses for internal engineering teams.",
@@ -36,7 +36,7 @@
           "artificial intelligence",
           "developer tooling"
         ],
-        "work_authorization_language": "This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+        "work_authorization_language": "This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
         "evidence": [
           {
             "evidence_id": "ev_001",
@@ -51,7 +51,7 @@
           {
             "evidence_id": "ev_002",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Company: Northstar Labs",
+            "quote": "Company: Synthetic Employer A",
             "locator": {
               "line_start": 3,
               "line_end": 3
@@ -61,7 +61,7 @@
           {
             "evidence_id": "ev_003",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Location: Remote (US)",
+            "quote": "Location: Remote (Example Region)",
             "locator": {
               "line_start": 4,
               "line_end": 4
@@ -101,7 +101,7 @@
           {
             "evidence_id": "ev_007",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Source URL: https://example.com/jobs/northstar-ai-platform",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-001",
             "locator": {
               "line_start": 8,
               "line_end": 8
@@ -111,7 +111,7 @@
           {
             "evidence_id": "ev_008",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Retrieved: 2026-11-19",
+            "quote": "Retrieved: 2025-01-01",
             "locator": {
               "line_start": 9,
               "line_end": 9
@@ -131,7 +131,7 @@
           {
             "evidence_id": "ev_010",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+            "quote": "Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
             "locator": {
               "line_start": 11,
               "line_end": 11
@@ -311,7 +311,7 @@
           {
             "evidence_id": "ev_010",
             "source": "examples/fixtures/jobs/job_001_strong.md",
-            "quote": "Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.",
+            "quote": "Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
             "locator": {
               "line_start": 11,
               "line_end": 11
@@ -377,11 +377,11 @@
     {
       "job": {
         "job_id": "job_002_investigate",
-        "source_url": "https://example.com/jobs/harbor-applied-ai",
-        "retrieved_at": "2026-11-19",
-        "company": "Harbor Data",
+        "source_url": "https://example.com/jobs/synthetic-role-002",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer B",
         "title": "Applied AI Engineer",
-        "location": "San Diego, CA",
+        "location": "Example City, CA",
         "seniority": "mid",
         "responsibilities": [
           "Build internal AI assistants for analytics and data-quality workflows.",
@@ -393,7 +393,7 @@
           "Strong Python and TypeScript development skills.",
           "Experience with AWS, Kubernetes, and SQL databases.",
           "Demonstrated experience shipping LLM-powered features.",
-          "Ability to work from the San Diego office three days per week."
+          "Ability to work from the Example City office three days per week."
         ],
         "nice_to_have": [
           "Experience with FastAPI.",
@@ -419,7 +419,7 @@
           {
             "evidence_id": "ev_002",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Company: Harbor Data",
+            "quote": "Company: Synthetic Employer B",
             "locator": {
               "line_start": 3,
               "line_end": 3
@@ -429,7 +429,7 @@
           {
             "evidence_id": "ev_003",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Location: San Diego, CA",
+            "quote": "Location: Example City, CA",
             "locator": {
               "line_start": 4,
               "line_end": 4
@@ -469,7 +469,7 @@
           {
             "evidence_id": "ev_007",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Source URL: https://example.com/jobs/harbor-applied-ai",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-002",
             "locator": {
               "line_start": 8,
               "line_end": 8
@@ -479,7 +479,7 @@
           {
             "evidence_id": "ev_008",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Retrieved: 2026-11-19",
+            "quote": "Retrieved: 2025-01-01",
             "locator": {
               "line_start": 9,
               "line_end": 9
@@ -569,7 +569,7 @@
           {
             "evidence_id": "ev_017",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Ability to work from the San Diego office three days per week.",
+            "quote": "Ability to work from the Example City office three days per week.",
             "locator": {
               "line_start": 24,
               "line_end": 24
@@ -633,7 +633,7 @@
           "LLM application experience"
         ],
         "gaps": [
-          "Ability to work from the San Diego office three days per week."
+          "Ability to work from the Example City office three days per week."
         ],
         "unsupported_claims": [],
         "resume_emphasis": [
@@ -642,7 +642,7 @@
           "Cite concrete evidence from the profile, not the job description."
         ],
         "interview_prep": [
-          "Prepare a truthful gap plan or proof-of-work for: Ability to work from the San Diego office three days per week."
+          "Prepare a truthful gap plan or proof-of-work for: Ability to work from the Example City office three days per week."
         ],
         "evidence": [
           {
@@ -698,7 +698,7 @@
           {
             "evidence_id": "ev_017",
             "source": "examples/fixtures/jobs/job_002_investigate.md",
-            "quote": "Ability to work from the San Diego office three days per week.",
+            "quote": "Ability to work from the Example City office three days per week.",
             "locator": {
               "line_start": 24,
               "line_end": 24
@@ -726,11 +726,11 @@
     {
       "job": {
         "job_id": "job_003_blocked",
-        "source_url": "https://example.com/jobs/meridian-embedded",
-        "retrieved_at": "2026-11-19",
-        "company": "Meridian Defense Systems",
+        "source_url": "https://example.com/jobs/synthetic-role-003",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer C",
         "title": "Embedded Software Engineer",
-        "location": "San Diego, CA",
+        "location": "Example City, CA",
         "seniority": "senior",
         "responsibilities": [
           "Develop production firmware for embedded Linux and RTOS platforms.",
@@ -741,8 +741,8 @@
           "8+ years of professional C and C++ development experience.",
           "Deep experience with embedded Linux or RTOS.",
           "Experience with network protocols and packet-level debugging.",
-          "Active Secret security clearance.",
-          "U.S. citizenship is required."
+          "Security clearance required.",
+          "Example citizenship required."
         ],
         "nice_to_have": [
           "Yocto or Buildroot experience.",
@@ -753,7 +753,7 @@
           "embedded firmware",
           "aerospace and defense"
         ],
-        "work_authorization_language": "Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+        "work_authorization_language": "Security clearance required. Example citizenship required. No visa sponsorship is available.",
         "evidence": [
           {
             "evidence_id": "ev_001",
@@ -768,7 +768,7 @@
           {
             "evidence_id": "ev_002",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Company: Meridian Defense Systems",
+            "quote": "Company: Synthetic Employer C",
             "locator": {
               "line_start": 3,
               "line_end": 3
@@ -778,7 +778,7 @@
           {
             "evidence_id": "ev_003",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Location: San Diego, CA",
+            "quote": "Location: Example City, CA",
             "locator": {
               "line_start": 4,
               "line_end": 4
@@ -818,7 +818,7 @@
           {
             "evidence_id": "ev_007",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Source URL: https://example.com/jobs/meridian-embedded",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-003",
             "locator": {
               "line_start": 8,
               "line_end": 8
@@ -828,7 +828,7 @@
           {
             "evidence_id": "ev_008",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Retrieved: 2026-11-19",
+            "quote": "Retrieved: 2025-01-01",
             "locator": {
               "line_start": 9,
               "line_end": 9
@@ -848,7 +848,7 @@
           {
             "evidence_id": "ev_010",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Work authorization: Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+            "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
             "locator": {
               "line_start": 11,
               "line_end": 11
@@ -918,7 +918,7 @@
           {
             "evidence_id": "ev_017",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Active Secret security clearance.",
+            "quote": "Security clearance required.",
             "locator": {
               "line_start": 24,
               "line_end": 24
@@ -928,7 +928,7 @@
           {
             "evidence_id": "ev_018",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "U.S. citizenship is required.",
+            "quote": "Example citizenship required.",
             "locator": {
               "line_start": 25,
               "line_end": 25
@@ -988,8 +988,8 @@
           "8+ years of professional C and C++ development experience.",
           "Deep experience with embedded Linux or RTOS.",
           "Experience with network protocols and packet-level debugging.",
-          "Active Secret security clearance.",
-          "U.S. citizenship is required."
+          "Security clearance required.",
+          "Example citizenship required."
         ],
         "unsupported_claims": [],
         "resume_emphasis": [
@@ -999,8 +999,8 @@
           "Prepare a truthful gap plan or proof-of-work for: 8+ years of professional C and C++ development experience.",
           "Prepare a truthful gap plan or proof-of-work for: Deep experience with embedded Linux or RTOS.",
           "Prepare a truthful gap plan or proof-of-work for: Experience with network protocols and packet-level debugging.",
-          "Prepare a truthful gap plan or proof-of-work for: Active Secret security clearance.",
-          "Prepare a truthful gap plan or proof-of-work for: U.S. citizenship is required."
+          "Prepare a truthful gap plan or proof-of-work for: Security clearance required.",
+          "Prepare a truthful gap plan or proof-of-work for: Example citizenship required."
         ],
         "evidence": [
           {
@@ -1016,7 +1016,7 @@
           {
             "evidence_id": "ev_010",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Work authorization: Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+            "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
             "locator": {
               "line_start": 11,
               "line_end": 11
@@ -1056,7 +1056,7 @@
           {
             "evidence_id": "ev_017",
             "source": "examples/fixtures/jobs/job_003_blocked.md",
-            "quote": "Active Secret security clearance.",
+            "quote": "Security clearance required.",
             "locator": {
               "line_start": 24,
               "line_end": 24

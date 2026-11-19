@@ -1,11 +1,11 @@
 {
   "job": {
     "job_id": "job_003_blocked",
-    "source_url": "https://example.com/jobs/meridian-embedded",
-    "retrieved_at": "2026-11-19",
-    "company": "Meridian Defense Systems",
+    "source_url": "https://example.com/jobs/synthetic-role-003",
+    "retrieved_at": "2025-01-01",
+    "company": "Synthetic Employer C",
     "title": "Embedded Software Engineer",
-    "location": "San Diego, CA",
+    "location": "Example City, CA",
     "seniority": "senior",
     "responsibilities": [
       "Develop production firmware for embedded Linux and RTOS platforms.",
@@ -16,8 +16,8 @@
       "8+ years of professional C and C++ development experience.",
       "Deep experience with embedded Linux or RTOS.",
       "Experience with network protocols and packet-level debugging.",
-      "Active Secret security clearance.",
-      "U.S. citizenship is required."
+      "Security clearance required.",
+      "Example citizenship required."
     ],
     "nice_to_have": [
       "Yocto or Buildroot experience.",
@@ -28,7 +28,7 @@
       "embedded firmware",
       "aerospace and defense"
     ],
-    "work_authorization_language": "Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+    "work_authorization_language": "Security clearance required. Example citizenship required. No visa sponsorship is available.",
     "evidence": [
       {
         "evidence_id": "ev_001",
@@ -43,7 +43,7 @@
       {
         "evidence_id": "ev_002",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Company: Meridian Defense Systems",
+        "quote": "Company: Synthetic Employer C",
         "locator": {
           "line_start": 3,
           "line_end": 3
@@ -53,7 +53,7 @@
       {
         "evidence_id": "ev_003",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Location: San Diego, CA",
+        "quote": "Location: Example City, CA",
         "locator": {
           "line_start": 4,
           "line_end": 4
@@ -93,7 +93,7 @@
       {
         "evidence_id": "ev_007",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Source URL: https://example.com/jobs/meridian-embedded",
+        "quote": "Source URL: https://example.com/jobs/synthetic-role-003",
         "locator": {
           "line_start": 8,
           "line_end": 8
@@ -103,7 +103,7 @@
       {
         "evidence_id": "ev_008",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Retrieved: 2026-11-19",
+        "quote": "Retrieved: 2025-01-01",
         "locator": {
           "line_start": 9,
           "line_end": 9
@@ -123,7 +123,7 @@
       {
         "evidence_id": "ev_010",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Work authorization: Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+        "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
         "locator": {
           "line_start": 11,
           "line_end": 11
@@ -193,7 +193,7 @@
       {
         "evidence_id": "ev_017",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Active Secret security clearance.",
+        "quote": "Security clearance required.",
         "locator": {
           "line_start": 24,
           "line_end": 24
@@ -203,7 +203,7 @@
       {
         "evidence_id": "ev_018",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "U.S. citizenship is required.",
+        "quote": "Example citizenship required.",
         "locator": {
           "line_start": 25,
           "line_end": 25
@@ -263,8 +263,8 @@
       "8+ years of professional C and C++ development experience.",
       "Deep experience with embedded Linux or RTOS.",
       "Experience with network protocols and packet-level debugging.",
-      "Active Secret security clearance.",
-      "U.S. citizenship is required."
+      "Security clearance required.",
+      "Example citizenship required."
     ],
     "unsupported_claims": [],
     "resume_emphasis": [
@@ -274,8 +274,8 @@
       "Prepare a truthful gap plan or proof-of-work for: 8+ years of professional C and C++ development experience.",
       "Prepare a truthful gap plan or proof-of-work for: Deep experience with embedded Linux or RTOS.",
       "Prepare a truthful gap plan or proof-of-work for: Experience with network protocols and packet-level debugging.",
-      "Prepare a truthful gap plan or proof-of-work for: Active Secret security clearance.",
-      "Prepare a truthful gap plan or proof-of-work for: U.S. citizenship is required."
+      "Prepare a truthful gap plan or proof-of-work for: Security clearance required.",
+      "Prepare a truthful gap plan or proof-of-work for: Example citizenship required."
     ],
     "evidence": [
       {
@@ -291,7 +291,7 @@
       {
         "evidence_id": "ev_010",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Work authorization: Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.",
+        "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
         "locator": {
           "line_start": 11,
           "line_end": 11
@@ -331,7 +331,7 @@
       {
         "evidence_id": "ev_017",
         "source": "examples/fixtures/jobs/job_003_blocked.md",
-        "quote": "Active Secret security clearance.",
+        "quote": "Security clearance required.",
         "locator": {
           "line_start": 24,
           "line_end": 24

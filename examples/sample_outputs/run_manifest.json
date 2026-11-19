@@ -1,10 +1,10 @@
 {
-  "run_id": "run-20261119T200438Z",
-  "started_at": "2026-11-19T20:04:38+00:00",
-  "completed_at": "2026-11-19T20:04:38+00:00",
+  "run_id": "run-20261119T202301Z",
+  "started_at": "2026-11-19T20:23:01+00:00",
+  "completed_at": "2026-11-19T20:23:01+00:00",
   "mode": "offline",
   "model_name": "deterministic-offline",
-  "git_commit": "7e568db",
+  "git_commit": "8138da6",
   "python_version": "3.11.9",
   "deepagents_version": "0.7.40",
   "rubric_version": "rubric-v1",
@@ -12,23 +12,23 @@
   "inputs": [
     {
       "path": "profile.example.json",
-      "sha256": "3329dceeef4fa6089cf48ae54b73726ad27119ff1f8784da8c651dee9d3f9dd6",
-      "size_bytes": 1419
+      "sha256": "7940abd58b8e79558c5c7a2427bf2dfeaffd30e9f681c1d25b535283eaadb45a",
+      "size_bytes": 1436
     },
     {
       "path": "examples/fixtures/jobs/job_001_strong.md",
-      "sha256": "4b5a07cf8b047a57a53d71fc4095ab6df3294220ec495c803c8a3690561b05f8",
-      "size_bytes": 1305
+      "sha256": "1c6ba7ab585ddc663a9d8e180d633a95215a01d26b54aa471137eb9e6d7a96c3",
+      "size_bytes": 1332
     },
     {
       "path": "examples/fixtures/jobs/job_002_investigate.md",
-      "sha256": "4fb941d60cc20dc8f87cb240836c3fa729b44ef1643fb214653f854d5d34cb4c",
-      "size_bytes": 895
+      "sha256": "1643bb78e0c9546f0b08f94dbc3a33a5508c61232d273fd92d99cbd0d1794133",
+      "size_bytes": 911
     },
     {
       "path": "examples/fixtures/jobs/job_003_blocked.md",
-      "sha256": "9bf03464ef7727266f5bca23a29e103bd1d8e0e4e77fc522c19e53ba9fbf7bc4",
-      "size_bytes": 1068
+      "sha256": "d4c96a788878e407a0e54f8cc83cfbb8b1a7a8dd059b0cf27bb206d7307d27f6",
+      "size_bytes": 1049
     }
   ],
   "job_results": [

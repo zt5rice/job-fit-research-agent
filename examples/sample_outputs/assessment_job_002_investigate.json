@@ -1,11 +1,11 @@
 {
   "job": {
     "job_id": "job_002_investigate",
-    "source_url": "https://example.com/jobs/harbor-applied-ai",
-    "retrieved_at": "2026-11-19",
-    "company": "Harbor Data",
+    "source_url": "https://example.com/jobs/synthetic-role-002",
+    "retrieved_at": "2025-01-01",
+    "company": "Synthetic Employer B",
     "title": "Applied AI Engineer",
-    "location": "San Diego, CA",
+    "location": "Example City, CA",
     "seniority": "mid",
     "responsibilities": [
       "Build internal AI assistants for analytics and data-quality workflows.",
@@ -17,7 +17,7 @@
       "Strong Python and TypeScript development skills.",
       "Experience with AWS, Kubernetes, and SQL databases.",
       "Demonstrated experience shipping LLM-powered features.",
-      "Ability to work from the San Diego office three days per week."
+      "Ability to work from the Example City office three days per week."
     ],
     "nice_to_have": [
       "Experience with FastAPI.",
@@ -43,7 +43,7 @@
       {
         "evidence_id": "ev_002",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Company: Harbor Data",
+        "quote": "Company: Synthetic Employer B",
         "locator": {
           "line_start": 3,
           "line_end": 3
@@ -53,7 +53,7 @@
       {
         "evidence_id": "ev_003",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Location: San Diego, CA",
+        "quote": "Location: Example City, CA",
         "locator": {
           "line_start": 4,
           "line_end": 4
@@ -93,7 +93,7 @@
       {
         "evidence_id": "ev_007",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Source URL: https://example.com/jobs/harbor-applied-ai",
+        "quote": "Source URL: https://example.com/jobs/synthetic-role-002",
         "locator": {
           "line_start": 8,
           "line_end": 8
@@ -103,7 +103,7 @@
       {
         "evidence_id": "ev_008",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Retrieved: 2026-11-19",
+        "quote": "Retrieved: 2025-01-01",
         "locator": {
           "line_start": 9,
           "line_end": 9
@@ -193,7 +193,7 @@
       {
         "evidence_id": "ev_017",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Ability to work from the San Diego office three days per week.",
+        "quote": "Ability to work from the Example City office three days per week.",
         "locator": {
           "line_start": 24,
           "line_end": 24
@@ -257,7 +257,7 @@
       "LLM application experience"
     ],
     "gaps": [
-      "Ability to work from the San Diego office three days per week."
+      "Ability to work from the Example City office three days per week."
     ],
     "unsupported_claims": [],
     "resume_emphasis": [
@@ -266,7 +266,7 @@
       "Cite concrete evidence from the profile, not the job description."
     ],
     "interview_prep": [
-      "Prepare a truthful gap plan or proof-of-work for: Ability to work from the San Diego office three days per week."
+      "Prepare a truthful gap plan or proof-of-work for: Ability to work from the Example City office three days per week."
     ],
     "evidence": [
       {
@@ -322,7 +322,7 @@
       {
         "evidence_id": "ev_017",
         "source": "examples/fixtures/jobs/job_002_investigate.md",
-        "quote": "Ability to work from the San Diego office three days per week.",
+        "quote": "Ability to work from the Example City office three days per week.",
         "locator": {
           "line_start": 24,
           "line_end": 24

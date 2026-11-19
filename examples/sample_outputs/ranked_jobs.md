@@ -9,11 +9,11 @@
 
 | Rank | Job | Company | Recommendation | Score | Review | Evidence |
 |---:|---|---|---|---:|---|---:|
-| 1 | Senior AI Platform Engineer | Northstar Labs | **apply** | 100 | no | 100% |
-| 2 | Applied AI Engineer | Harbor Data | **investigate** | 66 | yes | 100% |
-| 3 | Embedded Software Engineer | Meridian Defense Systems | **skip** | 30 | yes | 100% |
+| 1 | Senior AI Platform Engineer | Synthetic Employer A | **apply** | 100 | no | 100% |
+| 2 | Applied AI Engineer | Synthetic Employer B | **investigate** | 66 | yes | 100% |
+| 3 | Embedded Software Engineer | Synthetic Employer C | **skip** | 30 | yes | 100% |
 
-## Senior AI Platform Engineer — Northstar Labs
+## Senior AI Platform Engineer — Synthetic Employer A
 
 **Recommendation:** `apply`  
 **Deterministic score:** `100/100`  
@@ -60,13 +60,13 @@ No unmatched must-haves.
 ### Evidence
 
 - `ev_001` (title, lines 1-1): > Senior AI Platform Engineer
-- `ev_010` (work_authorization_language, lines 11-11): > Work authorization: This role is open to candidates authorized to work in the US; employer sponsorship is available.
+- `ev_010` (work_authorization_language, lines 11-11): > Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.
 - `ev_015` (must_have, lines 22-22): > 5+ years of software engineering experience, including production Python.
 - `ev_016` (must_have, lines 23-23): > Strong experience with LangChain or a comparable LLM application framework.
 - `ev_017` (must_have, lines 24-24): > Experience building deterministic evaluation and regression checks for AI systems.
 - `ev_018` (must_have, lines 25-25): > Hands-on experience with FastAPI, PostgreSQL, and containerized services.
 
-## Applied AI Engineer — Harbor Data
+## Applied AI Engineer — Synthetic Employer B
 
 **Recommendation:** `investigate`  
 **Deterministic score:** `66/100`  
@@ -99,7 +99,7 @@ role/domain 15/30, must-have 24/30 (4/5 matched), seniority 10/15, location/auth
 
 ### Gaps
 
-- Ability to work from the San Diego office three days per week.
+- Ability to work from the Example City office three days per week.
 
 ### Resume emphasis
 
@@ -109,7 +109,7 @@ role/domain 15/30, must-have 24/30 (4/5 matched), seniority 10/15, location/auth
 
 ### Interview preparation
 
-- Prepare a truthful gap plan or proof-of-work for: Ability to work from the San Diego office three days per week.
+- Prepare a truthful gap plan or proof-of-work for: Ability to work from the Example City office three days per week.
 
 ### Evidence
 
@@ -118,9 +118,9 @@ role/domain 15/30, must-have 24/30 (4/5 matched), seniority 10/15, location/auth
 - `ev_014` (must_have, lines 21-21): > Strong Python and TypeScript development skills.
 - `ev_015` (must_have, lines 22-22): > Experience with AWS, Kubernetes, and SQL databases.
 - `ev_016` (must_have, lines 23-23): > Demonstrated experience shipping LLM-powered features.
-- `ev_017` (must_have, lines 24-24): > Ability to work from the San Diego office three days per week.
+- `ev_017` (must_have, lines 24-24): > Ability to work from the Example City office three days per week.
 
-## Embedded Software Engineer — Meridian Defense Systems
+## Embedded Software Engineer — Synthetic Employer C
 
 **Recommendation:** `skip`  
 **Deterministic score:** `30/100`  
@@ -157,8 +157,8 @@ No deterministic strengths.
 - 8+ years of professional C and C++ development experience.
 - Deep experience with embedded Linux or RTOS.
 - Experience with network protocols and packet-level debugging.
-- Active Secret security clearance.
-- U.S. citizenship is required.
+- Security clearance required.
+- Example citizenship required.
 
 ### Resume emphasis
 
@@ -169,14 +169,14 @@ No deterministic strengths.
 - Prepare a truthful gap plan or proof-of-work for: 8+ years of professional C and C++ development experience.
 - Prepare a truthful gap plan or proof-of-work for: Deep experience with embedded Linux or RTOS.
 - Prepare a truthful gap plan or proof-of-work for: Experience with network protocols and packet-level debugging.
-- Prepare a truthful gap plan or proof-of-work for: Active Secret security clearance.
-- Prepare a truthful gap plan or proof-of-work for: U.S. citizenship is required.
+- Prepare a truthful gap plan or proof-of-work for: Security clearance required.
+- Prepare a truthful gap plan or proof-of-work for: Example citizenship required.
 
 ### Evidence
 
 - `ev_001` (title, lines 1-1): > Embedded Software Engineer
-- `ev_010` (work_authorization_language, lines 11-11): > Work authorization: Active Secret security clearance required. U.S. citizenship is required. No visa sponsorship is available.
+- `ev_010` (work_authorization_language, lines 11-11): > Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.
 - `ev_014` (must_have, lines 21-21): > 8+ years of professional C and C++ development experience.
 - `ev_015` (must_have, lines 22-22): > Deep experience with embedded Linux or RTOS.
 - `ev_016` (must_have, lines 23-23): > Experience with network protocols and packet-level debugging.
-- `ev_017` (must_have, lines 24-24): > Active Secret security clearance.
+- `ev_017` (must_have, lines 24-24): > Security clearance required.
