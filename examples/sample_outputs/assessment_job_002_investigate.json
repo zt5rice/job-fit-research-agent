@@ -1,0 +1,349 @@
+{
+  "job": {
+    "job_id": "job_002_investigate",
+    "source_url": "https://example.com/jobs/synthetic-role-002",
+    "retrieved_at": "2025-01-01",
+    "company": "Synthetic Employer B",
+    "title": "Applied AI Engineer",
+    "location": "Example City, CA",
+    "seniority": "mid",
+    "responsibilities": [
+      "Build internal AI assistants for analytics and data-quality workflows.",
+      "Integrate retrieval services with existing cloud data products.",
+      "Improve prompt and evaluation quality with product and data teams."
+    ],
+    "must_have": [
+      "4+ years of software engineering experience.",
+      "Strong Python and TypeScript development skills.",
+      "Experience with AWS, Kubernetes, and SQL databases.",
+      "Demonstrated experience shipping LLM-powered features.",
+      "Ability to work from the Example City office three days per week."
+    ],
+    "nice_to_have": [
+      "Experience with FastAPI.",
+      "Familiarity with vector databases.",
+      "Background in scientific data workflows."
+    ],
+    "domain": [
+      "data infrastructure",
+      "analytics"
+    ],
+    "work_authorization_language": "",
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Applied AI Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_002",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Company: Synthetic Employer B",
+        "locator": {
+          "line_start": 3,
+          "line_end": 3
+        },
+        "field": "company"
+      },
+      {
+        "evidence_id": "ev_003",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Location: Example City, CA",
+        "locator": {
+          "line_start": 4,
+          "line_end": 4
+        },
+        "field": "location"
+      },
+      {
+        "evidence_id": "ev_004",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Seniority: mid",
+        "locator": {
+          "line_start": 5,
+          "line_end": 5
+        },
+        "field": "seniority"
+      },
+      {
+        "evidence_id": "ev_005",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Workplace: hybrid",
+        "locator": {
+          "line_start": 6,
+          "line_end": 6
+        },
+        "field": "workplace_type"
+      },
+      {
+        "evidence_id": "ev_006",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Domain: data infrastructure, analytics",
+        "locator": {
+          "line_start": 7,
+          "line_end": 7
+        },
+        "field": "domain"
+      },
+      {
+        "evidence_id": "ev_007",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Source URL: https://example.com/jobs/synthetic-role-002",
+        "locator": {
+          "line_start": 8,
+          "line_end": 8
+        },
+        "field": "source_url"
+      },
+      {
+        "evidence_id": "ev_008",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Retrieved: 2025-01-01",
+        "locator": {
+          "line_start": 9,
+          "line_end": 9
+        },
+        "field": "retrieved_at"
+      },
+      {
+        "evidence_id": "ev_009",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Salary: Depends on experience",
+        "locator": {
+          "line_start": 10,
+          "line_end": 10
+        },
+        "field": "salary_text"
+      },
+      {
+        "evidence_id": "ev_010",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Build internal AI assistants for analytics and data-quality workflows.",
+        "locator": {
+          "line_start": 14,
+          "line_end": 14
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_011",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Integrate retrieval services with existing cloud data products.",
+        "locator": {
+          "line_start": 15,
+          "line_end": 15
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_012",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Improve prompt and evaluation quality with product and data teams.",
+        "locator": {
+          "line_start": 16,
+          "line_end": 16
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_013",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "4+ years of software engineering experience.",
+        "locator": {
+          "line_start": 20,
+          "line_end": 20
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_014",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Strong Python and TypeScript development skills.",
+        "locator": {
+          "line_start": 21,
+          "line_end": 21
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Experience with AWS, Kubernetes, and SQL databases.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Demonstrated experience shipping LLM-powered features.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Ability to work from the Example City office three days per week.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_018",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Experience with FastAPI.",
+        "locator": {
+          "line_start": 28,
+          "line_end": 28
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_019",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Familiarity with vector databases.",
+        "locator": {
+          "line_start": 29,
+          "line_end": 29
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_020",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Background in scientific data workflows.",
+        "locator": {
+          "line_start": 30,
+          "line_end": 30
+        },
+        "field": "nice_to_have"
+      }
+    ],
+    "workplace_type": "hybrid",
+    "salary_text": "Depends on experience",
+    "source_path": "examples/fixtures/jobs/job_002_investigate.md",
+    "extraction_warnings": []
+  },
+  "assessment": {
+    "job_id": "job_002_investigate",
+    "recommendation": "investigate",
+    "score": 66,
+    "score_breakdown": {
+      "role_and_domain": 15,
+      "must_have_skills": 24,
+      "seniority": 10,
+      "location_and_authorization": 12,
+      "preference_alignment": 5,
+      "total": 66
+    },
+    "strengths": [
+      "experience tenure",
+      "Python",
+      "TypeScript",
+      "Kubernetes",
+      "PostgreSQL",
+      "LLM application experience"
+    ],
+    "gaps": [
+      "Ability to work from the Example City office three days per week."
+    ],
+    "unsupported_claims": [],
+    "resume_emphasis": [
+      "Emphasize verified experience with experience tenure, Python, TypeScript, Kubernetes, PostgreSQL.",
+      "Connect that experience to data infrastructure, analytics.",
+      "Cite concrete evidence from the profile, not the job description."
+    ],
+    "interview_prep": [
+      "Prepare a truthful gap plan or proof-of-work for: Ability to work from the Example City office three days per week."
+    ],
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Applied AI Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_013",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "4+ years of software engineering experience.",
+        "locator": {
+          "line_start": 20,
+          "line_end": 20
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_014",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Strong Python and TypeScript development skills.",
+        "locator": {
+          "line_start": 21,
+          "line_end": 21
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Experience with AWS, Kubernetes, and SQL databases.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Demonstrated experience shipping LLM-powered features.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_002_investigate.md",
+        "quote": "Ability to work from the Example City office three days per week.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      }
+    ],
+    "needs_human_review": true,
+    "review_reasons": [
+      "ambiguous_work_authorization"
+    ],
+    "hard_blockers": [],
+    "score_explanation": "role/domain 15/30, must-have 24/30 (4/5 matched), seniority 10/15, location/auth 12/15, preferences 5/10. Uncapped total 66; final 66.",
+    "evidence_coverage": 1.0
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_reasons": [],
+    "evidence_coverage": 1.0
+  },
+  "analysis_source": "deterministic"
+}

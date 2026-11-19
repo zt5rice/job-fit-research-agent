@@ -1,0 +1,389 @@
+{
+  "job": {
+    "job_id": "job_003_blocked",
+    "source_url": "https://example.com/jobs/synthetic-role-003",
+    "retrieved_at": "2025-01-01",
+    "company": "Synthetic Employer C",
+    "title": "Embedded Software Engineer",
+    "location": "Example City, CA",
+    "seniority": "senior",
+    "responsibilities": [
+      "Develop production firmware for embedded Linux and RTOS platforms.",
+      "Debug networking, device-driver, and real-time concurrency issues.",
+      "Support integration testing for defense communication systems."
+    ],
+    "must_have": [
+      "8+ years of professional C and C++ development experience.",
+      "Deep experience with embedded Linux or RTOS.",
+      "Experience with network protocols and packet-level debugging.",
+      "Security clearance required.",
+      "Example citizenship required."
+    ],
+    "nice_to_have": [
+      "Yocto or Buildroot experience.",
+      "Familiarity with satellite or tactical communication systems.",
+      "Experience with hardware bring-up and board debugging."
+    ],
+    "domain": [
+      "embedded firmware",
+      "aerospace and defense"
+    ],
+    "work_authorization_language": "Security clearance required. Example citizenship required. No visa sponsorship is available.",
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Embedded Software Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_002",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Company: Synthetic Employer C",
+        "locator": {
+          "line_start": 3,
+          "line_end": 3
+        },
+        "field": "company"
+      },
+      {
+        "evidence_id": "ev_003",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Location: Example City, CA",
+        "locator": {
+          "line_start": 4,
+          "line_end": 4
+        },
+        "field": "location"
+      },
+      {
+        "evidence_id": "ev_004",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Seniority: senior",
+        "locator": {
+          "line_start": 5,
+          "line_end": 5
+        },
+        "field": "seniority"
+      },
+      {
+        "evidence_id": "ev_005",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Workplace: on-site",
+        "locator": {
+          "line_start": 6,
+          "line_end": 6
+        },
+        "field": "workplace_type"
+      },
+      {
+        "evidence_id": "ev_006",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Domain: embedded firmware, aerospace and defense",
+        "locator": {
+          "line_start": 7,
+          "line_end": 7
+        },
+        "field": "domain"
+      },
+      {
+        "evidence_id": "ev_007",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Source URL: https://example.com/jobs/synthetic-role-003",
+        "locator": {
+          "line_start": 8,
+          "line_end": 8
+        },
+        "field": "source_url"
+      },
+      {
+        "evidence_id": "ev_008",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Retrieved: 2025-01-01",
+        "locator": {
+          "line_start": 9,
+          "line_end": 9
+        },
+        "field": "retrieved_at"
+      },
+      {
+        "evidence_id": "ev_009",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Salary: USD 140000-175000 per year",
+        "locator": {
+          "line_start": 10,
+          "line_end": 10
+        },
+        "field": "salary_text"
+      },
+      {
+        "evidence_id": "ev_010",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
+        "locator": {
+          "line_start": 11,
+          "line_end": 11
+        },
+        "field": "work_authorization_language"
+      },
+      {
+        "evidence_id": "ev_011",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Develop production firmware for embedded Linux and RTOS platforms.",
+        "locator": {
+          "line_start": 15,
+          "line_end": 15
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_012",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Debug networking, device-driver, and real-time concurrency issues.",
+        "locator": {
+          "line_start": 16,
+          "line_end": 16
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_013",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Support integration testing for defense communication systems.",
+        "locator": {
+          "line_start": 17,
+          "line_end": 17
+        },
+        "field": "responsibilities"
+      },
+      {
+        "evidence_id": "ev_014",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "8+ years of professional C and C++ development experience.",
+        "locator": {
+          "line_start": 21,
+          "line_end": 21
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Deep experience with embedded Linux or RTOS.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Experience with network protocols and packet-level debugging.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Security clearance required.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_018",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Example citizenship required.",
+        "locator": {
+          "line_start": 25,
+          "line_end": 25
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_019",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Yocto or Buildroot experience.",
+        "locator": {
+          "line_start": 29,
+          "line_end": 29
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_020",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Familiarity with satellite or tactical communication systems.",
+        "locator": {
+          "line_start": 30,
+          "line_end": 30
+        },
+        "field": "nice_to_have"
+      },
+      {
+        "evidence_id": "ev_021",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Experience with hardware bring-up and board debugging.",
+        "locator": {
+          "line_start": 31,
+          "line_end": 31
+        },
+        "field": "nice_to_have"
+      }
+    ],
+    "workplace_type": "on-site",
+    "salary_text": "USD 140000-175000 per year",
+    "source_path": "examples/fixtures/jobs/job_003_blocked.md",
+    "extraction_warnings": []
+  },
+  "assessment": {
+    "job_id": "job_003_blocked",
+    "recommendation": "skip",
+    "score": 30,
+    "score_breakdown": {
+      "role_and_domain": 15,
+      "must_have_skills": 0,
+      "seniority": 15,
+      "location_and_authorization": 0,
+      "preference_alignment": 0,
+      "total": 30
+    },
+    "strengths": [],
+    "gaps": [
+      "8+ years of professional C and C++ development experience.",
+      "Deep experience with embedded Linux or RTOS.",
+      "Experience with network protocols and packet-level debugging.",
+      "Security clearance required.",
+      "Example citizenship required."
+    ],
+    "unsupported_claims": [],
+    "resume_emphasis": [
+      "Use only verified profile evidence; do not invent experience."
+    ],
+    "interview_prep": [
+      "Prepare a truthful gap plan or proof-of-work for: 8+ years of professional C and C++ development experience.",
+      "Prepare a truthful gap plan or proof-of-work for: Deep experience with embedded Linux or RTOS.",
+      "Prepare a truthful gap plan or proof-of-work for: Experience with network protocols and packet-level debugging.",
+      "Prepare a truthful gap plan or proof-of-work for: Security clearance required.",
+      "Prepare a truthful gap plan or proof-of-work for: Example citizenship required."
+    ],
+    "evidence": [
+      {
+        "evidence_id": "ev_001",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Embedded Software Engineer",
+        "locator": {
+          "line_start": 1,
+          "line_end": 1
+        },
+        "field": "title"
+      },
+      {
+        "evidence_id": "ev_010",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
+        "locator": {
+          "line_start": 11,
+          "line_end": 11
+        },
+        "field": "work_authorization_language"
+      },
+      {
+        "evidence_id": "ev_014",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "8+ years of professional C and C++ development experience.",
+        "locator": {
+          "line_start": 21,
+          "line_end": 21
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_015",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Deep experience with embedded Linux or RTOS.",
+        "locator": {
+          "line_start": 22,
+          "line_end": 22
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_016",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Experience with network protocols and packet-level debugging.",
+        "locator": {
+          "line_start": 23,
+          "line_end": 23
+        },
+        "field": "must_have"
+      },
+      {
+        "evidence_id": "ev_017",
+        "source": "examples/fixtures/jobs/job_003_blocked.md",
+        "quote": "Security clearance required.",
+        "locator": {
+          "line_start": 24,
+          "line_end": 24
+        },
+        "field": "must_have"
+      }
+    ],
+    "needs_human_review": true,
+    "review_reasons": [
+      "hard_blocker_conflict"
+    ],
+    "hard_blockers": [
+      {
+        "code": "sponsorship_unavailable",
+        "message": "The posting rejects employer sponsorship and the profile requires it.",
+        "evidence_ids": [
+          "ev_010",
+          "ev_014",
+          "ev_015",
+          "ev_016"
+        ]
+      },
+      {
+        "code": "citizenship_required",
+        "message": "The posting requires citizenship that the profile does not establish.",
+        "evidence_ids": [
+          "ev_010",
+          "ev_014",
+          "ev_015",
+          "ev_016"
+        ]
+      },
+      {
+        "code": "clearance_required",
+        "message": "The posting requires a security clearance not present in the profile.",
+        "evidence_ids": [
+          "ev_010",
+          "ev_014",
+          "ev_015",
+          "ev_016"
+        ]
+      }
+    ],
+    "score_explanation": "role/domain 15/30, must-have 0/30 (0/5 matched), seniority 15/15, location/auth 0/15, preferences 0/10. Uncapped total 30; final 30. Cap applied: confirmed hard blocker.",
+    "evidence_coverage": 1.0
+  },
+  "validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "review_reasons": [],
+    "evidence_coverage": 1.0
+  },
+  "analysis_source": "deterministic"
+}

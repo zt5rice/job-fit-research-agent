@@ -1,0 +1,119 @@
+{
+  "run_id": "run-20261119T202516Z",
+  "started_at": "2026-11-19T20:25:16+00:00",
+  "completed_at": "2026-11-19T20:25:16+00:00",
+  "mode": "offline",
+  "model_name": "deterministic-offline",
+  "git_commit": "838537b",
+  "python_version": "3.11.9",
+  "deepagents_version": "0.7.40",
+  "rubric_version": "rubric-v1",
+  "prompt_version": "deepagents-prompt-v1",
+  "inputs": [
+    {
+      "path": "profile.example.json",
+      "sha256": "7940abd58b8e79558c5c7a2427bf2dfeaffd30e9f681c1d25b535283eaadb45a",
+      "size_bytes": 1436
+    },
+    {
+      "path": "examples/fixtures/jobs/job_001_strong.md",
+      "sha256": "1c6ba7ab585ddc663a9d8e180d633a95215a01d26b54aa471137eb9e6d7a96c3",
+      "size_bytes": 1332
+    },
+    {
+      "path": "examples/fixtures/jobs/job_002_investigate.md",
+      "sha256": "1643bb78e0c9546f0b08f94dbc3a33a5508c61232d273fd92d99cbd0d1794133",
+      "size_bytes": 911
+    },
+    {
+      "path": "examples/fixtures/jobs/job_003_blocked.md",
+      "sha256": "d4c96a788878e407a0e54f8cc83cfbb8b1a7a8dd059b0cf27bb206d7307d27f6",
+      "size_bytes": 1049
+    }
+  ],
+  "job_results": [
+    {
+      "job_id": "job_001_strong",
+      "score": 100,
+      "recommendation": "apply",
+      "needs_human_review": false,
+      "review_reasons": [],
+      "evidence_coverage": 1.0,
+      "analysis_source": "deterministic"
+    },
+    {
+      "job_id": "job_002_investigate",
+      "score": 66,
+      "recommendation": "investigate",
+      "needs_human_review": true,
+      "review_reasons": [
+        "ambiguous_work_authorization"
+      ],
+      "evidence_coverage": 1.0,
+      "analysis_source": "deterministic"
+    },
+    {
+      "job_id": "job_003_blocked",
+      "score": 30,
+      "recommendation": "skip",
+      "needs_human_review": true,
+      "review_reasons": [
+        "hard_blocker_conflict"
+      ],
+      "evidence_coverage": 1.0,
+      "analysis_source": "deterministic"
+    }
+  ],
+  "tool_events": [
+    {
+      "event": "planner_started",
+      "mode": "offline",
+      "job_count": 3
+    },
+    {
+      "event": "offline_deterministic_pipeline",
+      "reason": "No model credentials or network requests are used."
+    },
+    {
+      "event": "job_analyzed",
+      "job_id": "job_001_strong",
+      "source": "deterministic"
+    },
+    {
+      "event": "job_analyzed",
+      "job_id": "job_002_investigate",
+      "source": "deterministic"
+    },
+    {
+      "event": "job_analyzed",
+      "job_id": "job_003_blocked",
+      "source": "deterministic"
+    },
+    {
+      "event": "deterministic_scoring_completed",
+      "job_count": 3
+    }
+  ],
+  "warnings": [
+    "Independent interview-grade prototype; not production software.",
+    "Offline mode uses deterministic extraction and does not call an LLM.",
+    "Live extraction quality depends on the configured OpenAI-compatible model.",
+    "Results require human review before any external use.",
+    "No authenticated scraping, automated applications, or employer contact."
+  ],
+  "limitations": [
+    "Independent interview-grade prototype; not production software.",
+    "Offline mode uses deterministic extraction and does not call an LLM.",
+    "Live extraction quality depends on the configured OpenAI-compatible model.",
+    "Results require human review before any external use.",
+    "No authenticated scraping, automated applications, or employer contact."
+  ],
+  "output_files": [
+    "examples/sample_outputs/assessment_job_001_strong.json",
+    "examples/sample_outputs/assessment_job_002_investigate.json",
+    "examples/sample_outputs/assessment_job_003_blocked.json",
+    "examples/sample_outputs/ranked_jobs.json",
+    "examples/sample_outputs/ranked_jobs.md",
+    "examples/sample_outputs/run_manifest.json"
+  ]
+}

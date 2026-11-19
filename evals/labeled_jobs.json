@@ -1,0 +1,460 @@
+{
+  "schema_version": "1.0",
+  "description": "Synthetic evaluation corpus. No records are copied from the local job CSV.",
+  "cases": [
+    {
+      "case_id": "eval_001",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior AI Platform Engineer",
+      "company": "Synthetic Employer 01",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "artificial intelligence",
+        "developer tooling"
+      ],
+      "salary_text": "USD 150000-190000 per year",
+      "work_authorization_language": "Employer visa sponsorship is available.",
+      "must_have": [
+        "Python",
+        "LangChain",
+        "evaluation",
+        "FastAPI",
+        "6+ years of software experience"
+      ],
+      "nice_to_have": [
+        "Kubernetes"
+      ],
+      "responsibilities": [
+        "Build agent workflows",
+        "Measure evidence quality"
+      ]
+    },
+    {
+      "case_id": "eval_002",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior Machine Learning Platform Engineer",
+      "company": "Synthetic Employer 02",
+      "location": "Example City, CA",
+      "seniority": "senior",
+      "workplace_type": "hybrid",
+      "domain": [
+        "artificial intelligence",
+        "developer tooling"
+      ],
+      "salary_text": "USD 140000-175000 per year",
+      "work_authorization_language": "Sponsorship is available for this role.",
+      "must_have": [
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "PostgreSQL",
+        "evaluation"
+      ],
+      "nice_to_have": [
+        "PyTorch"
+      ],
+      "responsibilities": [
+        "Operate model platforms",
+        "Improve release quality"
+      ]
+    },
+    {
+      "case_id": "eval_003",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior Software Engineer, Scientific Data",
+      "company": "Synthetic Employer 03",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "scientific software",
+        "developer tooling"
+      ],
+      "salary_text": "USD 135000-165000 per year",
+      "work_authorization_language": "Visa sponsorship available.",
+      "must_have": [
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "scientific computing",
+        "evaluation"
+      ],
+      "nice_to_have": [
+        "FastAPI"
+      ],
+      "responsibilities": [
+        "Build reproducible data workflows",
+        "Create audit evidence"
+      ]
+    },
+    {
+      "case_id": "eval_004",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior AI Engineer",
+      "company": "Synthetic Employer 04",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "artificial intelligence"
+      ],
+      "salary_text": "USD 160000-200000 per year",
+      "work_authorization_language": "Open to sponsorship.",
+      "must_have": [
+        "Python",
+        "RAG",
+        "evaluation",
+        "FastAPI",
+        "5+ years of software experience"
+      ],
+      "nice_to_have": [
+        "LangChain"
+      ],
+      "responsibilities": [
+        "Ship retrieval systems",
+        "Design regression tests"
+      ]
+    },
+    {
+      "case_id": "eval_005",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Machine Learning Platform Engineer",
+      "company": "Synthetic Employer 05",
+      "location": "Example City, CA",
+      "seniority": "senior",
+      "workplace_type": "hybrid",
+      "domain": [
+        "artificial intelligence",
+        "developer tooling"
+      ],
+      "salary_text": "USD 145000-180000 per year",
+      "work_authorization_language": "We will sponsor qualified candidates.",
+      "must_have": [
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "RAG",
+        "PostgreSQL"
+      ],
+      "nice_to_have": [
+        "TypeScript"
+      ],
+      "responsibilities": [
+        "Build platform services",
+        "Improve model reliability"
+      ]
+    },
+    {
+      "case_id": "eval_006",
+      "label": "apply",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior Software Engineer, Evaluation Tooling",
+      "company": "Synthetic Employer 06",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "developer tooling",
+        "scientific software"
+      ],
+      "salary_text": "USD 140000-170000 per year",
+      "work_authorization_language": "Sponsorship is available.",
+      "must_have": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "evaluation",
+        "5+ years of software experience"
+      ],
+      "nice_to_have": [
+        "Docker"
+      ],
+      "responsibilities": [
+        "Build evaluation services",
+        "Publish audit reports"
+      ]
+    },
+    {
+      "case_id": "eval_007",
+      "label": "investigate",
+      "expected_review": true,
+      "hard_blocker": false,
+      "title": "Applied AI Engineer",
+      "company": "Synthetic Employer 07",
+      "location": "Example City, CA",
+      "seniority": "mid",
+      "workplace_type": "hybrid",
+      "domain": [
+        "data infrastructure",
+        "analytics"
+      ],
+      "salary_text": "Depends on experience",
+      "work_authorization_language": "",
+      "must_have": [
+        "Python",
+        "TypeScript",
+        "AWS",
+        "Kubernetes",
+        "LLM application experience"
+      ],
+      "nice_to_have": [
+        "FastAPI"
+      ],
+      "responsibilities": [
+        "Build analytics assistants",
+        "Integrate retrieval services"
+      ]
+    },
+    {
+      "case_id": "eval_008",
+      "label": "investigate",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Data Platform Engineer",
+      "company": "Synthetic Employer 08",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "data infrastructure"
+      ],
+      "salary_text": "USD 145000-180000 per year",
+      "work_authorization_language": "Visa sponsorship available.",
+      "must_have": [
+        "Python",
+        "PostgreSQL",
+        "Kubernetes",
+        "SQL",
+        "data pipeline ownership"
+      ],
+      "nice_to_have": [
+        "Docker"
+      ],
+      "responsibilities": [
+        "Operate data services",
+        "Improve data quality"
+      ]
+    },
+    {
+      "case_id": "eval_009",
+      "label": "investigate",
+      "expected_review": true,
+      "hard_blocker": false,
+      "title": "AI Solutions Engineer",
+      "company": "Synthetic Employer 09",
+      "location": "Example City, CA",
+      "seniority": "senior",
+      "workplace_type": "hybrid",
+      "domain": [
+        "artificial intelligence"
+      ],
+      "salary_text": "USD 140000-175000 per year",
+      "work_authorization_language": "",
+      "must_have": [
+        "Python",
+        "LangChain",
+        "customer demos",
+        "solution architecture",
+        "evaluation"
+      ],
+      "nice_to_have": [
+        "RAG"
+      ],
+      "responsibilities": [
+        "Lead technical discovery",
+        "Prototype customer workflows"
+      ]
+    },
+    {
+      "case_id": "eval_010",
+      "label": "skip",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Senior Frontend Engineer",
+      "company": "Synthetic Employer 10",
+      "location": "Example City, WA",
+      "seniority": "senior",
+      "workplace_type": "on-site",
+      "domain": [
+        "web applications"
+      ],
+      "salary_text": "USD 150000-185000 per year",
+      "work_authorization_language": "Sponsorship is available.",
+      "must_have": [
+        "React",
+        "CSS architecture",
+        "browser performance",
+        "design systems",
+        "TypeScript"
+      ],
+      "nice_to_have": [
+        "Accessibility"
+      ],
+      "responsibilities": [
+        "Own the component library",
+        "Improve rendering performance"
+      ]
+    },
+    {
+      "case_id": "eval_011",
+      "label": "skip",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Enterprise Sales Engineer",
+      "company": "Synthetic Employer 11",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "enterprise software sales"
+      ],
+      "salary_text": "USD 130000-170000 per year",
+      "work_authorization_language": "Sponsorship is available.",
+      "must_have": [
+        "sales quotas",
+        "CRM administration",
+        "executive presentations",
+        "travel",
+        "customer negotiation"
+      ],
+      "nice_to_have": [
+        "SaaS"
+      ],
+      "responsibilities": [
+        "Support enterprise deals",
+        "Run product demonstrations"
+      ]
+    },
+    {
+      "case_id": "eval_012",
+      "label": "skip",
+      "expected_review": false,
+      "hard_blocker": false,
+      "title": "Staff Research Scientist",
+      "company": "Synthetic Employer 12",
+      "location": "Remote (Example Region)",
+      "seniority": "staff",
+      "workplace_type": "remote",
+      "domain": [
+        "artificial intelligence"
+      ],
+      "salary_text": "USD 190000-240000 per year",
+      "work_authorization_language": "Sponsorship is available.",
+      "must_have": [
+        "PhD",
+        "publication record",
+        "foundation model research",
+        "PyTorch",
+        "research mentoring"
+      ],
+      "nice_to_have": [
+        "scientific computing"
+      ],
+      "responsibilities": [
+        "Lead research agendas",
+        "Publish model results"
+      ]
+    },
+    {
+      "case_id": "eval_013",
+      "label": "skip",
+      "expected_review": true,
+      "hard_blocker": true,
+      "title": "Senior Backend Engineer",
+      "company": "Synthetic Employer 13",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "developer tooling"
+      ],
+      "salary_text": "USD 150000-190000 per year",
+      "work_authorization_language": "No visa sponsorship is available.",
+      "must_have": [
+        "Python",
+        "PostgreSQL",
+        "FastAPI",
+        "evaluation"
+      ],
+      "nice_to_have": [
+        "Docker"
+      ],
+      "responsibilities": [
+        "Build backend services",
+        "Own evaluation tooling"
+      ]
+    },
+    {
+      "case_id": "eval_014",
+      "label": "skip",
+      "expected_review": true,
+      "hard_blocker": true,
+      "title": "Senior Software Engineer, Secure Systems",
+      "company": "Synthetic Employer 14",
+      "location": "Example City, CA",
+      "seniority": "senior",
+      "workplace_type": "on-site",
+      "domain": [
+        "aerospace and defense"
+      ],
+      "salary_text": "USD 155000-195000 per year",
+      "work_authorization_language": "Security clearance required.",
+      "must_have": [
+        "Python",
+        "security clearance",
+        "embedded Linux",
+        "network debugging"
+      ],
+      "nice_to_have": [
+        "Docker"
+      ],
+      "responsibilities": [
+        "Support secure systems",
+        "Debug integration issues"
+      ]
+    },
+    {
+      "case_id": "eval_015",
+      "label": "skip",
+      "expected_review": true,
+      "hard_blocker": true,
+      "title": "Senior AI Systems Engineer",
+      "company": "Synthetic Employer 15",
+      "location": "Remote (Example Region)",
+      "seniority": "senior",
+      "workplace_type": "remote",
+      "domain": [
+        "artificial intelligence",
+        "public sector"
+      ],
+      "salary_text": "USD 150000-185000 per year",
+      "work_authorization_language": "Example citizenship is required. No sponsorship is available.",
+      "must_have": [
+        "Python",
+        "RAG",
+        "evaluation",
+        "Example citizenship"
+      ],
+      "nice_to_have": [
+        "LangChain"
+      ],
+      "responsibilities": [
+        "Build controlled agent workflows",
+        "Support public-sector deployments"
+      ]
+    }
+  ]
+}

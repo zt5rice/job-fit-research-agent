@@ -1,0 +1,1116 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-19T20:25:16+00:00",
+  "mode": "offline",
+  "rubric_version": "rubric-v1",
+  "candidate_id": "synthetic-candidate",
+  "jobs": [
+    {
+      "job": {
+        "job_id": "job_001_strong",
+        "source_url": "https://example.com/jobs/synthetic-role-001",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer A",
+        "title": "Senior AI Platform Engineer",
+        "location": "Remote (Example Region)",
+        "seniority": "senior",
+        "responsibilities": [
+          "Design typed agent workflows and evaluation harnesses for internal engineering teams.",
+          "Build Python services and retrieval pipelines backed by PostgreSQL.",
+          "Partner with product engineers to turn prototype workflows into auditable tools.",
+          "Own reliability, observability, and evidence quality for agent runs."
+        ],
+        "must_have": [
+          "5+ years of software engineering experience, including production Python.",
+          "Strong experience with LangChain or a comparable LLM application framework.",
+          "Experience building deterministic evaluation and regression checks for AI systems.",
+          "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+          "Clear written communication and comfort working in a senior individual-contributor role."
+        ],
+        "nice_to_have": [
+          "Experience operating Kubernetes workloads.",
+          "Familiarity with RAG systems and model observability.",
+          "Applied PyTorch experience."
+        ],
+        "domain": [
+          "artificial intelligence",
+          "developer tooling"
+        ],
+        "work_authorization_language": "This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Senior AI Platform Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_002",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Company: Synthetic Employer A",
+            "locator": {
+              "line_start": 3,
+              "line_end": 3
+            },
+            "field": "company"
+          },
+          {
+            "evidence_id": "ev_003",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Location: Remote (Example Region)",
+            "locator": {
+              "line_start": 4,
+              "line_end": 4
+            },
+            "field": "location"
+          },
+          {
+            "evidence_id": "ev_004",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Seniority: senior",
+            "locator": {
+              "line_start": 5,
+              "line_end": 5
+            },
+            "field": "seniority"
+          },
+          {
+            "evidence_id": "ev_005",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Workplace: remote",
+            "locator": {
+              "line_start": 6,
+              "line_end": 6
+            },
+            "field": "workplace_type"
+          },
+          {
+            "evidence_id": "ev_006",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Domain: artificial intelligence, developer tooling",
+            "locator": {
+              "line_start": 7,
+              "line_end": 7
+            },
+            "field": "domain"
+          },
+          {
+            "evidence_id": "ev_007",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-001",
+            "locator": {
+              "line_start": 8,
+              "line_end": 8
+            },
+            "field": "source_url"
+          },
+          {
+            "evidence_id": "ev_008",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Retrieved: 2025-01-01",
+            "locator": {
+              "line_start": 9,
+              "line_end": 9
+            },
+            "field": "retrieved_at"
+          },
+          {
+            "evidence_id": "ev_009",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Salary: USD 150000-190000 per year",
+            "locator": {
+              "line_start": 10,
+              "line_end": 10
+            },
+            "field": "salary_text"
+          },
+          {
+            "evidence_id": "ev_010",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
+            "locator": {
+              "line_start": 11,
+              "line_end": 11
+            },
+            "field": "work_authorization_language"
+          },
+          {
+            "evidence_id": "ev_011",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Design typed agent workflows and evaluation harnesses for internal engineering teams.",
+            "locator": {
+              "line_start": 15,
+              "line_end": 15
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_012",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Build Python services and retrieval pipelines backed by PostgreSQL.",
+            "locator": {
+              "line_start": 16,
+              "line_end": 16
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_013",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Partner with product engineers to turn prototype workflows into auditable tools.",
+            "locator": {
+              "line_start": 17,
+              "line_end": 17
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_014",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Own reliability, observability, and evidence quality for agent runs.",
+            "locator": {
+              "line_start": 18,
+              "line_end": 18
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "5+ years of software engineering experience, including production Python.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Strong experience with LangChain or a comparable LLM application framework.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Experience building deterministic evaluation and regression checks for AI systems.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_018",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+            "locator": {
+              "line_start": 25,
+              "line_end": 25
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_019",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Clear written communication and comfort working in a senior individual-contributor role.",
+            "locator": {
+              "line_start": 26,
+              "line_end": 26
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_020",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Experience operating Kubernetes workloads.",
+            "locator": {
+              "line_start": 30,
+              "line_end": 30
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_021",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Familiarity with RAG systems and model observability.",
+            "locator": {
+              "line_start": 31,
+              "line_end": 31
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_022",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Applied PyTorch experience.",
+            "locator": {
+              "line_start": 32,
+              "line_end": 32
+            },
+            "field": "nice_to_have"
+          }
+        ],
+        "workplace_type": "remote",
+        "salary_text": "USD 150000-190000 per year",
+        "source_path": "examples/fixtures/jobs/job_001_strong.md",
+        "extraction_warnings": []
+      },
+      "assessment": {
+        "job_id": "job_001_strong",
+        "recommendation": "apply",
+        "score": 100,
+        "score_breakdown": {
+          "role_and_domain": 30,
+          "must_have_skills": 30,
+          "seniority": 15,
+          "location_and_authorization": 15,
+          "preference_alignment": 10,
+          "total": 100
+        },
+        "strengths": [
+          "Python",
+          "experience tenure",
+          "LangChain",
+          "LLM application experience",
+          "evaluation",
+          "FastAPI",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "gaps": [],
+        "unsupported_claims": [],
+        "resume_emphasis": [
+          "Emphasize verified experience with Python, experience tenure, LangChain, LLM application experience, evaluation.",
+          "Connect that experience to artificial intelligence, developer tooling.",
+          "Cite concrete evidence from the profile, not the job description."
+        ],
+        "interview_prep": [
+          "Prepare concise examples of relevant technical decisions and outcomes.",
+          "Prepare one evidence-backed explanation for each must-have requirement."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Senior AI Platform Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_010",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Work authorization: This role is open to candidates authorized to work in the example region; employer sponsorship is available.",
+            "locator": {
+              "line_start": 11,
+              "line_end": 11
+            },
+            "field": "work_authorization_language"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "5+ years of software engineering experience, including production Python.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Strong experience with LangChain or a comparable LLM application framework.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Experience building deterministic evaluation and regression checks for AI systems.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_018",
+            "source": "examples/fixtures/jobs/job_001_strong.md",
+            "quote": "Hands-on experience with FastAPI, PostgreSQL, and containerized services.",
+            "locator": {
+              "line_start": 25,
+              "line_end": 25
+            },
+            "field": "must_have"
+          }
+        ],
+        "needs_human_review": false,
+        "review_reasons": [],
+        "hard_blockers": [],
+        "score_explanation": "role/domain 30/30, must-have 30/30 (5/5 matched), seniority 15/15, location/auth 15/15, preferences 10/10. Uncapped total 100; final 100.",
+        "evidence_coverage": 1.0
+      },
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "review_reasons": [],
+        "evidence_coverage": 1.0
+      },
+      "analysis_source": "deterministic"
+    },
+    {
+      "job": {
+        "job_id": "job_002_investigate",
+        "source_url": "https://example.com/jobs/synthetic-role-002",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer B",
+        "title": "Applied AI Engineer",
+        "location": "Example City, CA",
+        "seniority": "mid",
+        "responsibilities": [
+          "Build internal AI assistants for analytics and data-quality workflows.",
+          "Integrate retrieval services with existing cloud data products.",
+          "Improve prompt and evaluation quality with product and data teams."
+        ],
+        "must_have": [
+          "4+ years of software engineering experience.",
+          "Strong Python and TypeScript development skills.",
+          "Experience with AWS, Kubernetes, and SQL databases.",
+          "Demonstrated experience shipping LLM-powered features.",
+          "Ability to work from the Example City office three days per week."
+        ],
+        "nice_to_have": [
+          "Experience with FastAPI.",
+          "Familiarity with vector databases.",
+          "Background in scientific data workflows."
+        ],
+        "domain": [
+          "data infrastructure",
+          "analytics"
+        ],
+        "work_authorization_language": "",
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Applied AI Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_002",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Company: Synthetic Employer B",
+            "locator": {
+              "line_start": 3,
+              "line_end": 3
+            },
+            "field": "company"
+          },
+          {
+            "evidence_id": "ev_003",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Location: Example City, CA",
+            "locator": {
+              "line_start": 4,
+              "line_end": 4
+            },
+            "field": "location"
+          },
+          {
+            "evidence_id": "ev_004",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Seniority: mid",
+            "locator": {
+              "line_start": 5,
+              "line_end": 5
+            },
+            "field": "seniority"
+          },
+          {
+            "evidence_id": "ev_005",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Workplace: hybrid",
+            "locator": {
+              "line_start": 6,
+              "line_end": 6
+            },
+            "field": "workplace_type"
+          },
+          {
+            "evidence_id": "ev_006",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Domain: data infrastructure, analytics",
+            "locator": {
+              "line_start": 7,
+              "line_end": 7
+            },
+            "field": "domain"
+          },
+          {
+            "evidence_id": "ev_007",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-002",
+            "locator": {
+              "line_start": 8,
+              "line_end": 8
+            },
+            "field": "source_url"
+          },
+          {
+            "evidence_id": "ev_008",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Retrieved: 2025-01-01",
+            "locator": {
+              "line_start": 9,
+              "line_end": 9
+            },
+            "field": "retrieved_at"
+          },
+          {
+            "evidence_id": "ev_009",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Salary: Depends on experience",
+            "locator": {
+              "line_start": 10,
+              "line_end": 10
+            },
+            "field": "salary_text"
+          },
+          {
+            "evidence_id": "ev_010",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Build internal AI assistants for analytics and data-quality workflows.",
+            "locator": {
+              "line_start": 14,
+              "line_end": 14
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_011",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Integrate retrieval services with existing cloud data products.",
+            "locator": {
+              "line_start": 15,
+              "line_end": 15
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_012",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Improve prompt and evaluation quality with product and data teams.",
+            "locator": {
+              "line_start": 16,
+              "line_end": 16
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_013",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "4+ years of software engineering experience.",
+            "locator": {
+              "line_start": 20,
+              "line_end": 20
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_014",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Strong Python and TypeScript development skills.",
+            "locator": {
+              "line_start": 21,
+              "line_end": 21
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Experience with AWS, Kubernetes, and SQL databases.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Demonstrated experience shipping LLM-powered features.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Ability to work from the Example City office three days per week.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_018",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Experience with FastAPI.",
+            "locator": {
+              "line_start": 28,
+              "line_end": 28
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_019",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Familiarity with vector databases.",
+            "locator": {
+              "line_start": 29,
+              "line_end": 29
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_020",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Background in scientific data workflows.",
+            "locator": {
+              "line_start": 30,
+              "line_end": 30
+            },
+            "field": "nice_to_have"
+          }
+        ],
+        "workplace_type": "hybrid",
+        "salary_text": "Depends on experience",
+        "source_path": "examples/fixtures/jobs/job_002_investigate.md",
+        "extraction_warnings": []
+      },
+      "assessment": {
+        "job_id": "job_002_investigate",
+        "recommendation": "investigate",
+        "score": 66,
+        "score_breakdown": {
+          "role_and_domain": 15,
+          "must_have_skills": 24,
+          "seniority": 10,
+          "location_and_authorization": 12,
+          "preference_alignment": 5,
+          "total": 66
+        },
+        "strengths": [
+          "experience tenure",
+          "Python",
+          "TypeScript",
+          "Kubernetes",
+          "PostgreSQL",
+          "LLM application experience"
+        ],
+        "gaps": [
+          "Ability to work from the Example City office three days per week."
+        ],
+        "unsupported_claims": [],
+        "resume_emphasis": [
+          "Emphasize verified experience with experience tenure, Python, TypeScript, Kubernetes, PostgreSQL.",
+          "Connect that experience to data infrastructure, analytics.",
+          "Cite concrete evidence from the profile, not the job description."
+        ],
+        "interview_prep": [
+          "Prepare a truthful gap plan or proof-of-work for: Ability to work from the Example City office three days per week."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Applied AI Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_013",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "4+ years of software engineering experience.",
+            "locator": {
+              "line_start": 20,
+              "line_end": 20
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_014",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Strong Python and TypeScript development skills.",
+            "locator": {
+              "line_start": 21,
+              "line_end": 21
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Experience with AWS, Kubernetes, and SQL databases.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Demonstrated experience shipping LLM-powered features.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_002_investigate.md",
+            "quote": "Ability to work from the Example City office three days per week.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          }
+        ],
+        "needs_human_review": true,
+        "review_reasons": [
+          "ambiguous_work_authorization"
+        ],
+        "hard_blockers": [],
+        "score_explanation": "role/domain 15/30, must-have 24/30 (4/5 matched), seniority 10/15, location/auth 12/15, preferences 5/10. Uncapped total 66; final 66.",
+        "evidence_coverage": 1.0
+      },
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "review_reasons": [],
+        "evidence_coverage": 1.0
+      },
+      "analysis_source": "deterministic"
+    },
+    {
+      "job": {
+        "job_id": "job_003_blocked",
+        "source_url": "https://example.com/jobs/synthetic-role-003",
+        "retrieved_at": "2025-01-01",
+        "company": "Synthetic Employer C",
+        "title": "Embedded Software Engineer",
+        "location": "Example City, CA",
+        "seniority": "senior",
+        "responsibilities": [
+          "Develop production firmware for embedded Linux and RTOS platforms.",
+          "Debug networking, device-driver, and real-time concurrency issues.",
+          "Support integration testing for defense communication systems."
+        ],
+        "must_have": [
+          "8+ years of professional C and C++ development experience.",
+          "Deep experience with embedded Linux or RTOS.",
+          "Experience with network protocols and packet-level debugging.",
+          "Security clearance required.",
+          "Example citizenship required."
+        ],
+        "nice_to_have": [
+          "Yocto or Buildroot experience.",
+          "Familiarity with satellite or tactical communication systems.",
+          "Experience with hardware bring-up and board debugging."
+        ],
+        "domain": [
+          "embedded firmware",
+          "aerospace and defense"
+        ],
+        "work_authorization_language": "Security clearance required. Example citizenship required. No visa sponsorship is available.",
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Embedded Software Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_002",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Company: Synthetic Employer C",
+            "locator": {
+              "line_start": 3,
+              "line_end": 3
+            },
+            "field": "company"
+          },
+          {
+            "evidence_id": "ev_003",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Location: Example City, CA",
+            "locator": {
+              "line_start": 4,
+              "line_end": 4
+            },
+            "field": "location"
+          },
+          {
+            "evidence_id": "ev_004",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Seniority: senior",
+            "locator": {
+              "line_start": 5,
+              "line_end": 5
+            },
+            "field": "seniority"
+          },
+          {
+            "evidence_id": "ev_005",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Workplace: on-site",
+            "locator": {
+              "line_start": 6,
+              "line_end": 6
+            },
+            "field": "workplace_type"
+          },
+          {
+            "evidence_id": "ev_006",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Domain: embedded firmware, aerospace and defense",
+            "locator": {
+              "line_start": 7,
+              "line_end": 7
+            },
+            "field": "domain"
+          },
+          {
+            "evidence_id": "ev_007",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Source URL: https://example.com/jobs/synthetic-role-003",
+            "locator": {
+              "line_start": 8,
+              "line_end": 8
+            },
+            "field": "source_url"
+          },
+          {
+            "evidence_id": "ev_008",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Retrieved: 2025-01-01",
+            "locator": {
+              "line_start": 9,
+              "line_end": 9
+            },
+            "field": "retrieved_at"
+          },
+          {
+            "evidence_id": "ev_009",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Salary: USD 140000-175000 per year",
+            "locator": {
+              "line_start": 10,
+              "line_end": 10
+            },
+            "field": "salary_text"
+          },
+          {
+            "evidence_id": "ev_010",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
+            "locator": {
+              "line_start": 11,
+              "line_end": 11
+            },
+            "field": "work_authorization_language"
+          },
+          {
+            "evidence_id": "ev_011",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Develop production firmware for embedded Linux and RTOS platforms.",
+            "locator": {
+              "line_start": 15,
+              "line_end": 15
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_012",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Debug networking, device-driver, and real-time concurrency issues.",
+            "locator": {
+              "line_start": 16,
+              "line_end": 16
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_013",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Support integration testing for defense communication systems.",
+            "locator": {
+              "line_start": 17,
+              "line_end": 17
+            },
+            "field": "responsibilities"
+          },
+          {
+            "evidence_id": "ev_014",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "8+ years of professional C and C++ development experience.",
+            "locator": {
+              "line_start": 21,
+              "line_end": 21
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Deep experience with embedded Linux or RTOS.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Experience with network protocols and packet-level debugging.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Security clearance required.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_018",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Example citizenship required.",
+            "locator": {
+              "line_start": 25,
+              "line_end": 25
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_019",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Yocto or Buildroot experience.",
+            "locator": {
+              "line_start": 29,
+              "line_end": 29
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_020",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Familiarity with satellite or tactical communication systems.",
+            "locator": {
+              "line_start": 30,
+              "line_end": 30
+            },
+            "field": "nice_to_have"
+          },
+          {
+            "evidence_id": "ev_021",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Experience with hardware bring-up and board debugging.",
+            "locator": {
+              "line_start": 31,
+              "line_end": 31
+            },
+            "field": "nice_to_have"
+          }
+        ],
+        "workplace_type": "on-site",
+        "salary_text": "USD 140000-175000 per year",
+        "source_path": "examples/fixtures/jobs/job_003_blocked.md",
+        "extraction_warnings": []
+      },
+      "assessment": {
+        "job_id": "job_003_blocked",
+        "recommendation": "skip",
+        "score": 30,
+        "score_breakdown": {
+          "role_and_domain": 15,
+          "must_have_skills": 0,
+          "seniority": 15,
+          "location_and_authorization": 0,
+          "preference_alignment": 0,
+          "total": 30
+        },
+        "strengths": [],
+        "gaps": [
+          "8+ years of professional C and C++ development experience.",
+          "Deep experience with embedded Linux or RTOS.",
+          "Experience with network protocols and packet-level debugging.",
+          "Security clearance required.",
+          "Example citizenship required."
+        ],
+        "unsupported_claims": [],
+        "resume_emphasis": [
+          "Use only verified profile evidence; do not invent experience."
+        ],
+        "interview_prep": [
+          "Prepare a truthful gap plan or proof-of-work for: 8+ years of professional C and C++ development experience.",
+          "Prepare a truthful gap plan or proof-of-work for: Deep experience with embedded Linux or RTOS.",
+          "Prepare a truthful gap plan or proof-of-work for: Experience with network protocols and packet-level debugging.",
+          "Prepare a truthful gap plan or proof-of-work for: Security clearance required.",
+          "Prepare a truthful gap plan or proof-of-work for: Example citizenship required."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "ev_001",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Embedded Software Engineer",
+            "locator": {
+              "line_start": 1,
+              "line_end": 1
+            },
+            "field": "title"
+          },
+          {
+            "evidence_id": "ev_010",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Work authorization: Security clearance required. Example citizenship required. No visa sponsorship is available.",
+            "locator": {
+              "line_start": 11,
+              "line_end": 11
+            },
+            "field": "work_authorization_language"
+          },
+          {
+            "evidence_id": "ev_014",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "8+ years of professional C and C++ development experience.",
+            "locator": {
+              "line_start": 21,
+              "line_end": 21
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_015",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Deep experience with embedded Linux or RTOS.",
+            "locator": {
+              "line_start": 22,
+              "line_end": 22
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_016",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Experience with network protocols and packet-level debugging.",
+            "locator": {
+              "line_start": 23,
+              "line_end": 23
+            },
+            "field": "must_have"
+          },
+          {
+            "evidence_id": "ev_017",
+            "source": "examples/fixtures/jobs/job_003_blocked.md",
+            "quote": "Security clearance required.",
+            "locator": {
+              "line_start": 24,
+              "line_end": 24
+            },
+            "field": "must_have"
+          }
+        ],
+        "needs_human_review": true,
+        "review_reasons": [
+          "hard_blocker_conflict"
+        ],
+        "hard_blockers": [
+          {
+            "code": "sponsorship_unavailable",
+            "message": "The posting rejects employer sponsorship and the profile requires it.",
+            "evidence_ids": [
+              "ev_010",
+              "ev_014",
+              "ev_015",
+              "ev_016"
+            ]
+          },
+          {
+            "code": "citizenship_required",
+            "message": "The posting requires citizenship that the profile does not establish.",
+            "evidence_ids": [
+              "ev_010",
+              "ev_014",
+              "ev_015",
+              "ev_016"
+            ]
+          },
+          {
+            "code": "clearance_required",
+            "message": "The posting requires a security clearance not present in the profile.",
+            "evidence_ids": [
+              "ev_010",
+              "ev_014",
+              "ev_015",
+              "ev_016"
+            ]
+          }
+        ],
+        "score_explanation": "role/domain 15/30, must-have 0/30 (0/5 matched), seniority 15/15, location/auth 0/15, preferences 0/10. Uncapped total 30; final 30. Cap applied: confirmed hard blocker.",
+        "evidence_coverage": 1.0
+      },
+      "validation": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "review_reasons": [],
+        "evidence_coverage": 1.0
+      },
+      "analysis_source": "deterministic"
+    }
+  ]
+}
