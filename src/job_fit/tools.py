@@ -8,7 +8,12 @@ from typing import Any
 
 from job_fit.contracts import JobPosting, UserProfile
 from job_fit.extraction import extract_job_fields, extract_job_file
-from job_fit.validation import validate_job_payload
+from job_fit.scoring import (
+    find_skill_gaps,
+    match_requirements,
+    score_job,
+)
+from job_fit.validation import detect_hard_blockers, validate_job_payload
 
 
 def load_profile(path: str) -> dict[str, Any]:
@@ -54,4 +59,64 @@ def validate_job_schema(payload: dict[str, Any]) -> dict[str, Any]:
     return validate_job_payload(payload, raw_text=raw_text or None).to_dict()
 
 
+def score_job_tool(
+    profile_payload: dict[str, Any], job_payload: dict[str, Any]
+) -> dict[str, Any]:
+    """Run the deterministic rubric. This tool cannot accept a model score."""
+    profile = UserProfile.from_dict(profile_payload)
+    job = JobPosting.from_dict(job_payload)
+    validation = validate_job_payload(
+        job_payload, raw_text=job.raw_text or None
+    )
+    blockers, _ = detect_hard_blockers(profile, job)
+    assessment = score_job(profile, job, validation)
+    return {
+        "assessment": assessment.to_dict(),
+        "hard_blockers": [blocker.to_dict() for blocker in blockers],
+    }
+
+
+def find_skill_gaps_tool(
+    profile_payload: dict[str, Any], job_payload: dict[str, Any]
+) -> list[str]:
+    """Return missing must-have requirements using deterministic matching."""
+    profile = UserProfile.from_dict(profile_payload)
+    job = JobPosting.from_dict(job_payload)
+    return find_skill_gaps(profile, job)
+
+
+def explain_requirement_matches(
+    profile_payload: dict[str, Any], job_payload: dict[str, Any]
+) -> list[dict[str, Any]]:
+    """Explain which profile terms matched each must-have requirement."""
+    profile = UserProfile.from_dict(profile_payload)
+    job = JobPosting.from_dict(job_payload)
+    return [
+        {
+            "requirement": match.requirement,
+            "matched": match.matched,
+            "matched_terms": match.matched_terms,
+        }
+        for match in match_requirements(profile, job)
+    ]
+
+
+def generate_resume_emphasis(
+    profile_payload: dict[str, Any], job_payload: dict[str, Any]
+) -> list[str]:
+    """Generate resume emphasis that is limited to profile-supported claims."""
+    profile = UserProfile.from_dict(profile_payload)
+    job = JobPosting.from_dict(job_payload)
+    validation = validate_job_payload(job_payload, raw_text=job.raw_text or None)
+    return score_job(profile, job, validation).resume_emphasis
+
+
+def generate_interview_prep(
+    profile_payload: dict[str, Any], job_payload: dict[str, Any]
+) -> list[str]:
+    """Generate interview preparation prompts from deterministic gaps."""
+    profile = UserProfile.from_dict(profile_payload)
+    job = JobPosting.from_dict(job_payload)
+    validation = validate_job_payload(job_payload, raw_text=job.raw_text or None)
+    return score_job(profile, job, validation).interview_prep
 
